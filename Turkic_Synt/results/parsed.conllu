@@ -1,0 +1,1298 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = ﻿Maradona'ya bu sözlerle veda etti:
+1	﻿	﻿	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nsubj	_	SpaceAfter=No
+2	Maradona'ya	Maradona	PROPN	Prop	Case=Dat|Number=Sing|Person=3	1	flat	_	_
+3	bu	bu	DET	Det	_	4	det	_	_
+4	sözlerle	söz	NOUN	Noun	Case=Ins|Number=Plur|Person=3	5	obl	_	_
+5	veda	veda	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
+6	etti	et	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	5	compound:lvc	_	SpaceAfter=No
+7	:	:	PUNCT	Punc	_	5	punct	_	_
+
+# sent_id = 2
+# text = Büyük bir futbolcuydu ama sportmen değildi İngiltere Milli Takımı'nın eski kalecisi Peter Shilton, hayatını kaybeden Diego Armando Maradona için bir veda yazısı yayımladı.
+1	Büyük	büyük	ADJ	Adj	_	3	amod	_	_
+2	bir	bir	DET	ANum	NumType=Card	3	det	_	_
+3	futbolcuydu	futbolcuydu	NOUN	Ques	Case=Nom|Number=Sing|Person=3	5	nsubj	_	_
+4	ama	ama	CCONJ	Conj	_	5	cc	_	_
+5	sportmen	sport	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2|Polarity=Pos	6	conj	_	_
+6	değildi	değil	AUX	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	24	punct	_	SpacesAfter=\n
+7	İngiltere	İngiltere	PROPN	Prop	Case=Nom|Number=Sing|Person=3	9	nmod:poss	_	_
+8	Milli	milli	ADJ	Adj	_	9	amod	_	_
+9	Takımı'nın	takım	PROPN	Prop	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod:poss	_	_
+10	eski	eski	ADJ	Adj	_	11	amod	_	_
+11	kalecisi	kaleci	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	nmod	_	_
+12	Peter	Peter	PROPN	Prop	Case=Nom|Number=Sing|Person=3	15	nmod:poss	_	_
+13	Shilton	Shilton	PROPN	Prop	Case=Nom|Number=Sing|Person=3	12	flat	_	SpaceAfter=No
+14	,	,	PUNCT	Punc	_	12	punct	_	_
+15	hayatını	hayat(I)	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	obj	_	_
+16	kaybeden	kaybet	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	17	acl	_	_
+17	Diego	Diego	PROPN	Prop	Case=Nom|Number=Sing|Person=3	24	obl	_	_
+18	Armando	Armando	PROPN	Prop	Case=Nom|Number=Sing|Person=3	17	flat	_	_
+19	Maradona	maradona	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	flat	_	_
+20	için	için	ADP	PCNom	_	17	case	_	_
+21	bir	bir	DET	ANum	NumType=Card	22	det	_	_
+22	veda	veda	NOUN	Noun	Case=Nom|Number=Sing|Person=3	23	nmod:poss	_	_
+23	yazısı	yazı	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	24	nsubj	_	_
+24	yayımladı	yayımla	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+25	.	.	PUNCT	Punc	_	24	punct	_	_
+
+# sent_id = 3
+# text = Maradona'nın elle attığı golden bahseden Shilton, efsane isim için dikkati çeken ifadeler kullandı.
+1	Maradona'nın	Maradona	PROPN	Prop	Case=Gen|Number=Sing|Person=3	3	nsubj	_	_
+2	elle	el	NOUN	Noun	Case=Ins|Number=Sing|Person=3	3	obl	_	_
+3	attığı	at	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
+4	golden	gol	NOUN	Noun	Case=Abl|Number=Sing|Person=3	5	obl	_	_
+5	bahseden	bahset	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	6	acl	_	_
+6	Shilton	Shilton	PROPN	Prop	Case=Nom|Number=Sing|Person=3	14	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	Punc	_	14	punct	_	_
+8	efsane	efsane	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	nmod:poss	_	_
+9	isim	isim	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	obl	_	_
+10	için	için	ADP	PCNom	_	9	case	_	_
+11	dikkati	dikkat	NOUN	Noun	Case=Acc|Number=Sing|Person=3	12	obj	_	_
+12	çeken	çek	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	13	acl	_	_
+13	ifadeler	ifade	NOUN	Noun	Case=Nom|Number=Plur|Person=3	14	nsubj	_	_
+14	kullandı	kulla	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	Punc	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = 1970'ten 1990'a kadar 125 maçta formasını giydiği İngiltere Milli Takımı'nın bu alanda rekorunu elinde tutan Shilton, Maradona'nın ölümü sonrası Daily Mail gazetesinde bir yazı kaleme aldı.
+1	1970'ten	1970	PROPN	Prop	Case=Abl|Number=Sing|Person=3	6	obl	_	_
+2	1990'a	1990	PROPN	Prop	Case=Dat|Number=Sing|Person=3	6	obl	_	_
+3	kadar	kadar	ADP	PCDat	_	2	case	_	_
+4	125	125	NUM	ANum	NumType=Card	5	nummod	_	_
+5	maçta	maç	NOUN	Noun	Case=Loc|Number=Sing|Person=3	6	obl	_	_
+6	formasını	for	VERB	Verb	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	7	obj	_	_
+7	giydiği	giy	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+8	İngiltere	İngiltere	PROPN	Prop	Case=Nom|Number=Sing|Person=3	10	nmod:poss	_	_
+9	Milli	milli	ADJ	Adj	_	10	amod	_	_
+10	Takımı'nın	takım	PROPN	Prop	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	nmod:poss	_	_
+11	bu	bu	DET	Det	_	12	det	_	_
+12	alanda	alan	NOUN	Noun	Case=Loc|Number=Sing|Person=3	15	obl	_	_
+13	rekorunu	rekor	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	obj	_	_
+14	elinde	el	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	obl	_	_
+15	tutan	tut	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	16	acl	_	_
+16	Shilton	Shilton	PROPN	Prop	Case=Nom|Number=Sing|Person=3	27	nsubj	_	SpaceAfter=No
+17	,	,	PUNCT	Punc	_	27	punct	_	_
+18	Maradona'nın	Maradona	PROPN	Prop	Case=Gen|Number=Sing|Person=3	19	nmod:poss	_	_
+19	ölümü	ölüm	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	nmod:poss	_	_
+20	sonrası	sonras	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	23	nmod:poss	_	_
+21	Daily	Daily	PROPN	Prop	Case=Nom|Number=Sing|Person=3	20	flat	_	_
+22	Mail	Mail	PROPN	Prop	Case=Nom|Number=Sing|Person=3	21	flat	_	_
+23	gazetesinde	gazete	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	26	obl	_	_
+24	bir	bir	DET	ANum	NumType=Card	25	det	_	_
+25	yazı	yazı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	26	obj	_	_
+26	kaleme	kalem	VERB	Verb	Case=Dat|Number=Sing|Person=3	27	obj	_	_
+27	aldı	al	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+28	.	.	PUNCT	Punc	_	27	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = "Şüphesiz karşılaştığım en iyi futbolcuydu"
+1	"Şüphesiz	"Şüphe	ADV	Pers	Case=Nom|Number=Sing|Person=3	2	advmod	_	_
+2	karşılaştığım	karşılaş	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	5	acl	_	_
+3	en	en	ADV	Adverb	_	4	advmod	_	_
+4	iyi	iyi	ADJ	Adj	_	5	amod	_	_
+5	futbolcuydu	futbolcuy	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+6	"	"	PUNCT	Punc	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = 71 yaşındaki eski file bekçisi, kalp krizi sonucu 60 yaşında ölen Maradona'nın hayatında önemli bir yeri olduğunu belirterek, "Onu bu kadar genç yaşta kaybettiğimiz için üzgünüm.
+1	71	71	NUM	ANum	NumType=Card	2	nmod:poss	_	_
+2	yaşındaki	yaş	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	amod	_	_
+3	eski	eski	ADJ	Adj	_	4	amod	_	_
+4	file	file	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
+5	bekçisi	bekçi	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	obj	_	SpaceAfter=No
+6	,	,	PUNCT	Punc	_	12	punct	_	_
+7	kalp	kalp	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
+8	krizi	kriz	NOUN	Noun	Case=Acc|Number=Sing|Person=3	9	nmod:poss	_	_
+9	sonucu	sonuç	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	obj	_	_
+10	60	60	NUM	ANum	NumType=Card	11	nummod	_	_
+11	yaşında	yaş	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	obl	_	_
+12	ölen	öl	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	13	acl	_	_
+13	Maradona'nın	Maradona	PROPN	Prop	Case=Gen|Number=Sing|Person=3	14	nmod:poss	_	_
+14	hayatında	hayat(I)	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	18	obl	_	_
+15	önemli	önem	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	amod	_	_
+16	bir	bir	DET	ANum	NumType=Card	17	det	_	_
+17	yeri	yeri	NOUN	Noun	Case=Nom|Number=Sing|Person=3	18	obj	_	_
+18	olduğunu	ol	VERB	Verb	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	19	ccomp	_	_
+19	belirterek	belir	VERB	Verb	Mood=Imp|Polarity=Pos|VerbForm=Conv|Voice=Cau	29	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	Punc	_	29	punct	_	_
+21	"	"	PUNCT	Punc	_	27	punct	_	SpaceAfter=No
+22	Onu	o	PRON	Pers	Case=Acc|Number=Sing|Person=3	27	obj	_	_
+23	bu	bu	DET	Det	_	24	det	_	_
+24	kadar	kadar	ADV	PCDat	_	25	advmod	_	_
+25	genç	genç	ADJ	Adj	_	26	amod	_	_
+26	yaşta	yaş	NOUN	Noun	Case=Loc|Number=Sing|Person=3	27	obl	_	_
+27	kaybettiğimiz	kaybet	VERB	Verb	Aspect=Perf|Number[psor]=Plur|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	29	acl	_	_
+28	için	için	ADP	PCNom	_	27	case	_	_
+29	üzgünüm	üzgün	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	0	root	_	SpaceAfter=No
+30	.	.	PUNCT	Punc	_	29	punct	_	_
+
+# sent_id = 7
+# text = Özel bir yetenekti ve şüphesiz karşılaştığım en iyi futbolcuydu.
+1	Özel	özel	ADJ	Adj	_	3	amod	_	_
+2	bir	bir	DET	ANum	NumType=Card	3	det	_	_
+3	yetenekti	yetenekit	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obj	_	_
+4	ve	ve	CCONJ	Conj	_	5	cc	_	_
+5	şüphesiz	şüphe	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	conj	_	_
+6	karşılaştığım	karşılaş	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	9	acl	_	_
+7	en	en	ADV	Adverb	_	8	advmod	_	_
+8	iyi	iyi	ADJ	Adj	_	9	amod	_	_
+9	futbolcuydu	futbolcuy	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	Punc	_	9	punct	_	_
+
+# sent_id = 8
+# text = Ailesine sabır diliyorum" ifadelerini kullandı.
+1	Ailesine	aile	ADJ	NAdj	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obl	_	_
+2	sabır	sabır	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	obj	_	_
+3	diliyorum	dile	VERB	Verb	Aspect=Prog|Number=Sing|Person=1|Polarity=Pos|Tense=Pres	5	nmod:poss	_	SpaceAfter=No
+4	"	"	PUNCT	Punc	_	3	punct	_	_
+5	ifadelerini	ifade	NOUN	Noun	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	obj	_	_
+6	kullandı	kullan	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	Punc	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = "O gün neler yaşanacağını hiçbirimiz tahmin edemezdik" Shilton, Maradona'nın 1986 FIFA Dünya Kupası çeyrek finalinde İngiltere'ye önce eliyle, 4 dakika sonra ise topu 60 metre taşıyıp 5 kişiyi çalımlayarak attığı goller için, şunları kaydetti: "O gün neler yaşanacağını hiçbirimiz tahmin edemezdik.
+1	"O	"O	DET	Det	_	2	det	_	_
+2	gün	gün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	obl	_	_
+3	neler	ne	PRON	Ques	Case=Nom|Number=Plur|Person=3	4	obj	_	_
+4	yaşanacağını	yaşan	VERB	Verb	Aspect=Imp|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part	6	nmod	_	_
+5	hiçbirimiz	hiçbiri	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	6	nsubj	_	_
+6	tahmin	tahmin	NOUN	Noun	Case=Nom|Number=Sing|Person=3	38	nsubj	_	_
+7	edemezdik	ede	VERB	Verb	Aspect=Hab|Evident=Fh|Number=Plur|Person=1|Polarity=Neg|Tense=Aor	6	compound	_	SpaceAfter=No
+8	"	"	PUNCT	Punc	_	6	punct	_	SpacesAfter=\n
+9	Shilton	Shilton	PROPN	Prop	Case=Nom|Number=Sing|Person=3	6	flat	_	SpaceAfter=No
+10	,	,	PUNCT	Punc	_	38	punct	_	_
+11	Maradona'nın	Maradona	PROPN	Prop	Case=Gen|Number=Sing|Person=3	15	nmod:poss	_	_
+12	1986	1986	NUM	ANum	NumType=Card	13	nummod	_	_
+13	FIFA	FIFA	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	amod	_	_
+14	Dünya	Dünya	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	nmod:poss	_	_
+15	Kupası	kupa	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	nmod:poss	_	_
+16	çeyrek	çeyrek	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	17	nmod:poss	_	_
+17	finalinde	final	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	amod	_	_
+18	İngiltere'ye	İngiltere	PROPN	Prop	Case=Dat|Number=Sing|Person=3	20	obl	_	_
+19	önce	önce	ADP	PCAbl	_	18	case	_	_
+20	eliyle	el	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	38	obl	_	SpaceAfter=No
+21	,	,	PUNCT	Punc	_	38	punct	_	_
+22	4	4	NUM	ANum	NumType=Card	23	nummod	_	_
+23	dakika	dakika	NOUN	Noun	Case=Nom|Number=Sing|Person=3	38	obl	_	_
+24	sonra	sonra	ADP	PCAbl	_	23	case	_	_
+25	ise	i	AUX	Conj	Mood=Cnd|Number=Sing|Person=3|Polarity=Pos	38	punct	_	_
+26	topu	top	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	38	nsubj	_	_
+27	60	60	NUM	ANum	NumType=Card	28	nummod	_	_
+28	metre	metre	NOUN	Noun	Case=Nom|Number=Sing|Person=3	29	obl	_	_
+29	taşıyıp	taşı	VERB	Verb	Polarity=Pos	32	advcl	_	_
+30	5	5	NUM	ANum	NumType=Card	31	nummod	_	_
+31	kişiyi	kişi	NOUN	Noun	Case=Acc|Number=Sing|Person=3	32	obj	_	_
+32	çalımlayarak	çalımlay	VERB	Verb	Mood=Imp|Polarity=Pos|VerbForm=Conv	38	advcl	_	_
+33	attığı	at	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	34	acl	_	_
+34	goller	gol	NOUN	Noun	Case=Nom|Number=Plur|Person=3	38	obl	_	_
+35	için	için	ADP	PCNom	_	34	case	_	SpaceAfter=No
+36	,	,	PUNCT	Punc	_	38	punct	_	_
+37	şunları	şu	PRON	Demons	Case=Acc|Number=Plur|Person=3	38	obj	_	_
+38	kaydetti	kaydet	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+39	:	:	PUNCT	Punc	_	38	punct	_	_
+40	"	"	PUNCT	Punc	_	44	punct	_	SpaceAfter=No
+41	O	O	DET	Det	_	42	det	_	_
+42	gün	gün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	44	obl	_	_
+43	neler	ne	PRON	Ques	Case=Nom|Number=Plur|Person=3	44	obj	_	_
+44	yaşanacağını	yaşan	VERB	Verb	Aspect=Imp|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part	47	ccomp	_	_
+45	hiçbirimiz	hiçbiri	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	44	nsubj	_	_
+46	tahmin	tahmin	NOUN	Noun	Case=Nom|Number=Sing|Person=3	44	nsubj	_	_
+47	edemezdik	ede	VERB	Verb	Aspect=Hab|Evident=Fh|Number=Plur|Person=1|Polarity=Neg|Tense=Aor	38	conj	_	SpaceAfter=No
+48	.	.	PUNCT	Punc	_	47	punct	_	_
+
+# sent_id = 10
+# text = İkimiz arasındaki hava topu mücadelesinde topa kafasıyla ulaşamayacağını biliyordum.
+1	İkimiz	iki	NUM	NNum	Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	2	nmod:poss	_	_
+2	arasındaki	ara	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	amod	_	_
+3	hava	hava	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
+4	topu	top	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod:poss	_	_
+5	mücadelesinde	mücadele	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
+6	topa	Topa	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nmod:poss	_	_
+7	kafasıyla	kafas	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
+8	ulaşamayacağını	ulaşamay	VERB	Verb	Aspect=Imp|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part	9	ccomp	_	_
+9	biliyordum	bil	VERB	Verb	Aspect=Prog|Evident=Fh|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	Punc	_	9	punct	_	_
+
+# sent_id = 11
+# text = Topu eliyle ağlara gönderdi.
+1	Topu	top	NOUN	Noun	Case=Acc|Number=Sing|Person=3	4	obj	_	_
+2	eliyle	eli	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl	_	_
+3	ağlara	ağ	NOUN	Noun	Case=Dat|Number=Plur|Person=3	4	obl	_	_
+4	gönderdi	gönder	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	Punc	_	4	punct	_	_
+
+# sent_id = 12
+# text = Açık bir kural ihlaliydi, hileydi.
+1	Açık	açık	ADJ	Adj	_	3	amod	_	_
+2	bir	bir	DET	ANum	NumType=Card	3	det	_	_
+3	kural	kural	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
+4	ihlaliydi	ihlal	VERB	Verb	Aspect=Perf|Case=Nom|Evident=Fh|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Tense=Past	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	Punc	_	6	punct	_	_
+6-7	hileydi	_	_	_	_	_	_	_	SpaceAfter=No
+6	hile	hile	ADV	Adverb	_	4	advmod	_	_
+7	ydi	i	AUX	Zero	Case=Nom|Number=Sing|Person=3	4	cop	_	_
+8	.	.	PUNCT	Punc	_	4	punct	_	_
+
+# sent_id = 13
+# text = Gol sevinci için koşarken bile iki defa hakeme baktı.
+1	Gol	gol	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
+2	sevinci	sevinç	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl	_	_
+3	için	için	ADP	PCNom	_	2	case	_	_
+4	koşarken	koş	VERB	Verb	Aspect=Hab|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Aor|VerbForm=Conv	9	advcl	_	_
+5	bile	bile	ADV	Adverb	_	4	advmod:emph	_	_
+6	iki	iki	NUM	ANum	NumType=Card	7	nummod	_	_
+7	defa	defa	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
+8	hakeme	hake	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	9	obl	_	_
+9	baktı	bak	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	Punc	_	9	punct	_	_
+
+# sent_id = 14
+# text = Çünkü herkes gibi o da ne yaptığını biliyordu.
+1	Çünkü	çünkü	CCONJ	Conj	_	8	cc	_	_
+2	herkes	herkes	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	amod	_	_
+3	gibi	gibi	ADP	PCNom	_	2	case	_	_
+4	o	o	PRON	Pers	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	da	da	CCONJ	Conj	_	4	advmod:emph	_	_
+6	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	7	obj	_	_
+7	yaptığını	yap	VERB	Verb	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	8	ccomp	_	_
+8	biliyordu	bil	VERB	Verb	Aspect=Prog|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	Punc	_	8	punct	_	_
+
+# sent_id = 15
+# text = Kısa süre sonra o harika golü attı.
+1	Kısa	kısa	ADJ	Adj	_	2	amod	_	_
+2	süre	süre	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	obl	_	_
+3	sonra	sonra	ADP	PCAbl	_	2	case	_	_
+4	o	o	DET	Det	_	5	det	_	_
+5	harika	harika	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
+6	golü	gol	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obj	_	_
+7	attı	at	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	Punc	_	7	punct	_	_
+
+# sent_id = 16
+# text = Biz hala önceki pozisyonu hazmetmeye çalışıyorduk.
+1	Biz	biz	PRON	Pers	Case=Nom|Number=Plur|Person=1	5	nsubj	_	_
+2	hala	hala	ADV	Adverb	_	5	advmod	_	_
+3	önceki	önce	ADP	PCAbl	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
+4	pozisyonu	pozisyon	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
+5	hazmetmeye	hazme	VERB	Verb	Case=Dat|Number=Sing|Person=3|Polarity=Pos|Voice=Cau	6	ccomp	_	_
+6	çalışıyorduk	çalış	VERB	Verb	Aspect=Prog|Evident=Fh|Number=Plur|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	Punc	_	6	punct	_	_
+
+# sent_id = 17
+# text = Muhteşem bir goldü ama elle oynadığı pozisyon sonucu skor 1-0 olmasa, ikinci golü atamazdı." "Özür dileyeceğini bilsem seve seve onun elini sıkardım" Maradona'nın elle attığı golü yıllarca unutamadığını dile getiren Shilton, "Onunla ilgili asıl rahatsız olduğum şey, yaptığı için asla özür dilememesiydi.
+1	Muhteşem	muhteşem	ADJ	Adj	_	3	amod	_	_
+2	bir	bir	DET	ANum	NumType=Card	3	det	_	_
+3	goldü	gold	VERB	Verb	Case=Acc|Number=Sing|Person=3	13	obj	_	_
+4	ama	ama	CCONJ	Conj	_	13	cc	_	_
+5	elle	el	NOUN	Noun	Case=Ins|Number=Sing|Person=3	6	obl	_	_
+6	oynadığı	oyna	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	8	acl	_	_
+7	pozisyon	pozisyon	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
+8	sonucu	sonuç	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nsubj	_	_
+9	skor	skor	NOUN	Noun	Case=Nom|Number=Sing|Person=3	13	amod	_	_
+10	1	1	NUM	ANum	NumType=Card	9	flat	_	SpaceAfter=No
+11	-	-	PUNCT	Punc	_	9	punct	_	SpaceAfter=No
+12	0	0	NUM	ANum	NumType=Card	9	flat	_	_
+13	olmasa	ol	NOUN	Noun	Mood=Des|Number=Sing|Person=3|Polarity=Neg	35	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	Punc	_	17	punct	_	_
+15	ikinci	iki	NUM	NNum	Case=Nom|Number=Sing|NumType=Ord|Person=3	16	amod	_	_
+16	golü	go	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	17	obl	_	_
+17	atamazdı	at	VERB	Verb	Aspect=Hab|Evident=Fh|Number=Sing|Person=3|Polarity=Neg|Tense=Aor	13	conj	_	SpaceAfter=No
+18	."	."	PUNCT	Punc	_	17	punct	_	SpacesAfter=\n
+19	"	"	PUNCT	Punc	_	20	punct	_	SpaceAfter=No
+20	Özür	özür	NOUN	Noun	Case=Nom|Number=Sing|Person=3	21	nmod:poss	_	_
+21	dileyeceğini	dileyecek	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	22	obj	_	_
+22	bilsem	bil	VERB	Verb	Mood=Des|Number=Sing|Person=1|Polarity=Pos	27	nmod	_	_
+23	seve	seve	CCONJ	Conj	_	27	cc	_	_
+24	seve	seve	CCONJ	Conj	_	27	cc	_	_
+25	onun	o	PRON	Pers	Case=Gen|Number=Sing|Person=3	26	nmod:poss	_	_
+26	elini	el	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	27	obj	_	_
+27	sıkardım	sık	VERB	Verb	Aspect=Hab|Evident=Fh|Number=Sing|Person=1|Polarity=Pos|Tense=Aor	13	conj	_	SpaceAfter=No
+28	"	"	PUNCT	Punc	_	27	punct	_	SpacesAfter=\n
+29	Maradona'nın	Maradona	PROPN	Prop	Case=Gen|Number=Sing|Person=3	31	nsubj	_	_
+30	elle	el	NOUN	Noun	Case=Ins|Number=Sing|Person=3	31	obl	_	_
+31	attığı	at	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	32	acl	_	_
+32	golü	gol	ADJ	Adj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	34	nsubj	_	_
+33	yıllarca	yıllarca	ADV	ANum	NumType=Card	34	advmod	_	_
+34	unutamadığını	unuta	VERB	Verb	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Neg|Tense=Past|VerbForm=Part	35	ccomp	_	_
+35	dile	dil	VERB	Verb	Case=Dat|Number=Sing|Person=3	37	acl	_	_
+36	getiren	getir	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	35	compound	_	_
+37	Shilton	Shilton	PROPN	Prop	Case=Nom|Number=Sing|Person=3	45	nsubj	_	SpaceAfter=No
+38	,	,	PUNCT	Punc	_	45	punct	_	_
+39	"	"	PUNCT	Punc	_	43	punct	_	SpaceAfter=No
+40	Onunla	On	PRON	Pers	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2	41	obj	_	_
+41	ilgili	ilgili	ADJ	Adj	Case=Nom|Number=Sing|Person=3	43	amod	_	_
+42	asıl	asıl	ADJ	Adj	Case=Nom|Number=Sing|Person=3	43	amod	_	_
+43	rahatsız	rahat	ADJ	Adj	Case=Nom|Number=Sing|Person=3	44	nsubj	_	_
+44	olduğum	ol	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=1|Polarity=Pos|Tense=Past|VerbForm=Part	45	acl	_	_
+45	şey	şey	NOUN	Noun	Case=Nom|Number=Sing|Person=3	51	conj	_	SpaceAfter=No
+46	,	,	PUNCT	Punc	_	51	punct	_	_
+47	yaptığı	yap	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	50	acl	_	_
+48	için	için	ADP	PCNom	_	47	case	_	_
+49	asla	asla	ADV	Adverb	_	50	advmod	_	_
+50	özür	özür	NOUN	Noun	Case=Nom|Number=Sing|Person=3	51	nsubj	_	_
+51-52	dilememesiydi	_	_	_	_	_	_	_	SpaceAfter=No
+51	dilememesi	dile	VERB	Verb	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Neg	0	root	_	_
+52	ydi	i	AUX	Zero	Case=Nom|Number=Sing|Person=3	51	cop	_	_
+53	.	.	PUNCT	Punc	_	51	punct	_	_
+
+# sent_id = 18
+# text = Özür dilemek yerine 'Tanrının eli' benzetmesini yaptı ki bu çok yanlıştı.
+1	Özür	öz	NOUN	Noun	Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	2	obl	_	_
+2	dilemek	dile	VERB	Verb	Case=Nom|Polarity=Pos	3	nmod:poss	_	_
+3	yerine	yer	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	obl	_	_
+4	'	'	PUNCT	Punc	_	3	punct	_	SpaceAfter=No
+5	Tanrının	Tanrı	NOUN	Noun	Case=Gen|Number=Sing|Person=3	7	nmod:poss	_	_
+6	eli'	eli'	NOUN	Noun	_	7	obj	_	_
+7	benzetmesini	benzet	VERB	Verb	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	8	ccomp	_	_
+8	yaptı	yap	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	12	advcl	_	_
+9	ki	ki	CCONJ	Conj	_	8	mark	_	_
+10	bu	bu	DET	Det	_	11	det	_	_
+11	çok	çok	ADV	Adverb	_	12	advmod	_	_
+12	yanlıştı	yanlış	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	Punc	_	12	punct	_	_
+
+# sent_id = 19
+# text = Büyük bir futbolcuydu ama ne yazık ki sportmen biri değildi.
+1	Büyük	büyük	ADJ	Adj	_	3	amod	_	_
+2	bir	bir	DET	ANum	NumType=Card	3	det	_	_
+3	futbolcuydu	futbolcuydu	NOUN	Ques	Case=Nom|Number=Sing|Person=3	9	nsubj	_	_
+4	ama	ama	CCONJ	Conj	_	9	cc	_	_
+5	ne	ne	PRON	Ques	Case=Nom|Number=Sing|Person=3	8	amod	_	_
+6	yazık	yazık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	compound	_	_
+7	ki	ki	ADP	Rel	_	5	case	_	_
+8	sportmen	sportmen	VERB	Verb	Case=Nom|Number=Sing|Person=3	9	nmod:poss	_	_
+9	biri	biri	PRON	Quant	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	0	root	_	_
+10	değildi	değil	AUX	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	9	cop	_	SpaceAfter=No
+11	.	.	PUNCT	Punc	_	9	punct	_	_
+
+# sent_id = 20
+# text = Yıllarca ikimizi bir araya getirmek istediler.
+1	Yıllarca	yıllarca	ADV	ANum	NumType=Card	5	advmod	_	_
+2	ikimizi	iki	NUM	NNum	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1	5	obj	_	_
+3	bir	bir	NUM	ANum	NumType=Card	5	ccomp	_	_
+4	araya	ara	ADJ	NAdj	Case=Dat|Number=Sing|Person=3	3	compound	_	_
+5	getirmek	getir	VERB	Verb	Case=Nom|Polarity=Pos	6	xcomp	_	_
+6	istediler	iste	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Plur|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	Punc	_	6	punct	_	_
+
+# sent_id = 21
+# text = Özür dileyeceğini bilsem seve seve onun elini sıkardım.
+1	Özür	özür	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
+2	dileyeceğini	dileyecek	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obj	_	_
+3	bilsem	bil	VERB	Verb	Mood=Des|Number=Sing|Person=1|Polarity=Pos	8	advcl	_	_
+4	seve	seve	CCONJ	Conj	_	8	cc	_	_
+5	seve	seve	CCONJ	Conj	_	8	cc	_	_
+6	onun	o	PRON	Pers	Case=Gen|Number=Sing|Person=3	7	nmod:poss	_	_
+7	elini	el	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
+8	sıkardım	sıkar	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=1|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	Punc	_	8	punct	_	_
+
+# sent_id = 22
+# text = Fakat buna dair hiçbir işaret görmedim.
+1	Fakat	fakat	CCONJ	Conj	_	6	cc	_	_
+2	buna	bu	PRON	Demons	Case=Dat|Number=Sing|Person=3	6	obl	_	_
+3	dair	dair	ADP	PCDat	_	2	case	_	_
+4	hiçbir	hiçbir	DET	Det	_	5	det	_	_
+5	işaret	işaret	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	obj	_	_
+6	görmedim	gör	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=1|Polarity=Neg|Tense=Past	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	Punc	_	6	punct	_	_
+
+# sent_id = 23
+# text = Umarım o gol Maradona'nın mirasını lekelemez" yorumunu yaptı.
+1	Umarım	umar	ADJ	Adj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	8	nsubj	_	_
+2	o	o	DET	Det	_	3	det	_	_
+3	gol	gol	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	obl	_	_
+4	Maradona'nın	Maradona	PROPN	Prop	Case=Gen|Number=Sing|Person=3	5	nmod:poss	_	_
+5	mirasını	mira	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
+6	lekelemez"	lekelemez"	NOUN	Noun	_	7	nmod:poss	_	_
+7	yorumunu	yorum	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
+8	yaptı	yap	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	Punc	_	8	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 24
+# text = MBS’den yeni tasfiyeler Suudi Arabistan’da Kasım 2018’de, kendine muhalif prensleri otele hapseden Veliaht Prens Muhammed bin Selman, şimdi bürokratlara kanca attı.
+1	MBS’den	MBS’	NOUN	Noun	Case=Abl|Number=Sing|Person=3	4	obl	_	_
+2	yeni	yeni	ADJ	Adj	_	3	amod	_	_
+3	tasfiyeler	tasfiye	NOUN	Noun	Case=Nom|Number=Plur|Person=3	4	nsubj	_	SpacesAfter=\n
+4	Suudi	Suudi	VERB	Verb	Case=Nom|Number=Sing|Person=3	13	nmod:poss	_	_
+5	Arabistan’da	Arabistan	NOUN	Noun	Case=Loc|Number=Sing|Person=3	13	obl	_	_
+6	Kasım	Kasım	NOUN	Noun	Case=Nom|Number=Sing|Person=3	13	amod	_	_
+7	2018’de	2018’	NOUN	Noun	Case=Loc|Number=Sing|Person=3	13	obl	_	SpaceAfter=No
+8	,	,	PUNCT	Punc	_	13	punct	_	_
+9	kendine	kendi	PRON	Reflex	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Voice=Rfl	13	obl	_	_
+10	muhalif	muhalif	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	nmod:poss	_	_
+11	prensleri	prens	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	13	obj	_	_
+12	otele	otel	NOUN	Noun	Case=Dat|Number=Sing|Person=3	13	obl	_	_
+13	hapseden	hapset	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	14	acl	_	_
+14	Veliaht	Veliaht	PROPN	Prop	Case=Nom|Number=Sing|Person=3	23	nsubj	_	_
+15	Prens	Prens	PROPN	Prop	Case=Nom|Number=Sing|Person=3	14	flat	_	_
+16	Muhammed	Muhammed	PROPN	Prop	Case=Nom|Number=Sing|Person=3	14	flat	_	_
+17	bin	bin	NUM	ANum	NumType=Card	14	flat	_	_
+18	Selman	Selman	PROPN	Prop	Case=Nom|Number=Sing|Person=3	14	flat	_	SpaceAfter=No
+19	,	,	PUNCT	Punc	_	23	punct	_	_
+20	şimdi	şimdi	ADV	Adverb	_	23	advmod	_	_
+21	bürokratlara	bürokrat	NOUN	Noun	Case=Dat|Number=Plur|Person=3	23	obl	_	_
+22	kanca	kanca	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	23	obj	_	_
+23	attı	at	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	Punc	_	23	punct	_	_
+
+# sent_id = 25
+# text = Yüzlerce devlet görevlisine yolsuzluk suçlamasıyla soruşturma başlatıldı.
+1	Yüzlerce	yüzlerce	NUM	ANum	NumType=Card	2	nummod	_	_
+2	devlet	devlet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
+3	görevlisine	görevli	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl	_	_
+4	yolsuzluk	yolsuz	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
+5	suçlamasıyla	suçla	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	7	obl	_	_
+6	soruşturma	soruştur	NOUN	Noun	Case=Nom|Number=Sing|Person=3|Polarity=Pos	7	nsubj	_	_
+7	başlatıldı	başla	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	Punc	_	7	punct	_	_
+
+# sent_id = 26
+# text = MBS’nin, Trump kadar yakın ilişki kuramayacağı Biden göreve başlamadan önce çatlak sesleri susturmak istediği yorumları yapılıyor.
+1	MBS’nin	MBS	NOUN	Noun	Case=Gen|Number=Sing|Person=3	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	Punc	_	3	punct	_	_
+3	Trump	Trump	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	conj	_	_
+4	kadar	kadar	ADP	PCDat	_	3	case	_	_
+5	yakın	yakın	ADJ	Adj	Case=Nom|Number=Sing|Person=3	6	amod	_	_
+6	ilişki	ilişki	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	obj	_	_
+7	kuramayacağı	kura	VERB	Verb	Aspect=Imp|Number[psor]=Sing|Person[psor]=3|Polarity=Neg|Tense=Fut|VerbForm=Part	8	acl	_	_
+8	Biden	Bi	NOUN	Noun	Case=Abl|Number=Sing|Person=3	10	obl	_	_
+9	göreve	görev	NOUN	Noun	Case=Dat|Number=Sing|Person=3	10	obl	_	_
+10	başlamadan	başla	VERB	Verb	Case=Abl|Number=Sing|Person=3|Polarity=Pos	14	advcl	_	_
+11	önce	önce	ADP	PCAbl	_	10	case	_	_
+12	çatlak	çatlak	ADJ	Adj	Case=Nom|Number=Sing|Person=3	13	amod	_	_
+13	sesleri	ses	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	14	obj	_	_
+14	susturmak	sus	VERB	Verb	Case=Nom|Polarity=Pos|Voice=Cau	15	obj	_	_
+15	istediği	iste	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	16	acl	_	_
+16	yorumları	yorum	NOUN	Noun	Case=Acc|Number=Plur|Person=3	17	obj	_	_
+17	yapılıyor	yap	VERB	Verb	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	Punc	_	17	punct	_	SpacesAfter=\n
+
+# sent_id = 27
+# text = Koltuğunu sağlama almak için Suudi prensleri tutuklayan Suudi Arabistan Veliaht Prensi Muhammed bin Selman, bu kez bakanlıklara ve devlet memurlarına yöneldi.
+1	Koltuğunu	Kol	VERB	Verb	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	2	ccomp	_	_
+2	sağlama	sağla	VERB	Verb	Case=Nom|Number=Sing|Person=3|Polarity=Pos	3	obj	_	_
+3	almak	al	VERB	Verb	Case=Nom|Polarity=Pos	7	advcl	_	_
+4	için	için	ADP	PCNom	_	3	case	_	_
+5	Suudi	Suudi	VERB	Verb	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
+6	prensleri	prens	NOUN	Noun	Case=Acc|Number=Plur|Person=3	7	obj	_	_
+7	tutuklayan	tutukla	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	8	acl	_	_
+8	Suudi	Suudi	VERB	Verb	Case=Nom|Number=Sing|Person=3	12	nmod	_	_
+9	Arabistan	Arabistan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	8	flat	_	_
+10	Veliaht	Veliaht	PROPN	Prop	Case=Nom|Number=Sing|Person=3	8	flat	_	_
+11	Prensi	Pren	PROPN	Prop	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	flat	_	_
+12	Muhammed	Muhammed	NOUN	Noun	Case=Nom|Number=Sing|Person=3	22	nsubj	_	_
+13	bin	bin	NUM	ANum	NumType=Card	12	flat	_	_
+14	Selman	Selman	PROPN	Prop	Case=Nom|Number=Sing|Person=3	12	flat	_	SpaceAfter=No
+15	,	,	PUNCT	Punc	_	22	punct	_	_
+16	bu	bu	DET	Det	_	17	det	_	_
+17	kez	kez	NOUN	Noun	Case=Nom|Number=Sing|Person=3	22	obl	_	_
+18	bakanlıklara	bakanlık	NOUN	Noun	Case=Dat|Number=Plur|Person=3	22	obl	_	_
+19	ve	ve	CCONJ	Conj	_	21	cc	_	_
+20	devlet	devlet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	21	nmod:poss	_	_
+21	memurlarına	memur	NOUN	Noun	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	18	conj	_	_
+22	yöneldi	yönel	VERB	Neg	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	Punc	_	22	punct	_	_
+
+# sent_id = 28
+# text = Suudi Kontrol ve Yolsuzlukla Mücadele Otoritesi, Suudi Savunma Bakanlığı’nda yolsuzluk davalarına ilişkin ceza davalarının başladığını duyurdu.
+1	Suudi	Suudi	ADJ	Adj	Case=Nom|Number=Sing|Person=3	9	amod	_	_
+2	Kontrol	kontrol	PROPN	Prop	Case=Nom|Number=Sing|Person=3	1	flat	_	_
+3	ve	ve	CCONJ	Conj	_	4	cc	_	_
+4	Yolsuzlukla	Yolsuzluk	NOUN	Noun	Case=Ins|Number=Sing|Person=3	1	conj	_	_
+5	Mücadele	mücadele	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
+6	Otoritesi	Otorite	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	1	conj	_	SpaceAfter=No
+7	,	,	PUNCT	Punc	_	8	punct	_	_
+8	Suudi	Suudi	VERB	Verb	Case=Nom|Number=Sing|Person=3	1	conj	_	_
+9	Savunma	Savu	VERB	Verb	Case=Nom|Number=Sing|Person=3|Polarity=Pos|Voice=Pass	10	nmod	_	_
+10	Bakanlığı’nda	Bakanlığı’n	NOUN	Noun	Case=Loc|Number=Sing|Person=3	12	amod	_	_
+11	yolsuzluk	yol	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	nmod:poss	_	_
+12	davalarına	dava(I)	NOUN	Noun	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	16	obl	_	_
+13	ilişkin	ilişkin	ADP	PCDat	_	12	case	_	_
+14	ceza	ceza	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	nmod:poss	_	_
+15	davalarının	dava	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	16	nsubj	_	_
+16	başladığını	başla	VERB	Verb	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	17	ccomp	_	_
+17	duyurdu	duyur	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	Punc	_	17	punct	_	_
+
+# sent_id = 29
+# text = Suudi Arabistan’ın yolsuzluk vakalarını ayrıntılı olarak duyurmasının alışılmadık olduğuna dikkat çeken siyasi analistler, bu hamlelerin değişen ABD yönetiminden kaynaklandığına vurgu yaptı.
+1	Suudi	Suudi	ADJ	Adj	_	2	amod	_	_
+2	Arabistan’ın	Arabistan’	NOUN	Noun	Case=Gen|Number=Sing|Person=3	4	nmod:poss	_	_
+3	yolsuzluk	yolsuz	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
+4	vakalarını	vaka	NOUN	Noun	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	obj	_	_
+5	ayrıntılı	ayrıntı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	advcl	_	_
+6	olarak	ol	ADP	PCNom	Mood=Imp|Polarity=Pos|VerbForm=Conv	5	case	_	_
+7	duyurmasının	duyur	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	9	nsubj	_	_
+8	alışılmadık	alışıl	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Plur|Person=1|Polarity=Neg|Tense=Past	7	compound	_	_
+9	olduğuna	ol	VERB	Verb	Aspect=Perf|Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	10	acl	_	_
+10	dikkat	dikkat	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	obl	_	_
+11	çeken	çek	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	13	acl	_	_
+12	siyasi	siyasi	ADJ	Adj	_	13	amod	_	_
+13	analistler	analist	NOUN	Noun	Case=Nom|Number=Plur|Person=3	21	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	Punc	_	21	punct	_	_
+15	bu	bu	DET	Det	_	16	det	_	_
+16	hamlelerin	hamle	NOUN	Noun	Case=Gen|Number=Plur|Person=3	17	nsubj	_	_
+17	değişen	değiş	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	19	acl	_	_
+18	ABD	ABD	NOUN	Abr	Case=Nom|Number=Sing|Person=3	19	nmod:poss	_	_
+19	yönetiminden	yönetim	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	obl	_	_
+20	kaynaklandığına	kaynaklan	NOUN	Noun	Aspect=Perf|Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	21	nmod	_	_
+21	vurgu	vurgu	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
+22	yaptı	yap	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	21	compound	_	SpaceAfter=No
+23	.	.	PUNCT	Punc	_	21	punct	_	_
+
+# sent_id = 30
+# text = Selman’ın ABD’nin yeni başkanı Joe Biden ile ilişkisinin gergin olması sebebiyle içerdeki tüm çatlak sesleri susturmak istediği biliniyor.
+1	Selman’ın	Selman’	NOUN	Noun	Case=Gen|Number=Sing|Person=3	2	nmod:poss	_	_
+2	ABD’nin	ABD’	NOUN	Noun	Case=Gen|Number=Sing|Person=3	4	nmod:poss	_	_
+3	yeni	yeni	ADJ	Adj	_	4	amod	_	_
+4	başkanı	başkân	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nmod	_	_
+5	Joe	Joe	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
+6	Biden	Bit	VERB	Verb	Aspect=Perf|Mood=Ind|Polarity=Pos|Tense=Pres|VerbForm=Part	5	flat	_	_
+7	ile	ile	CCONJ	Conj	_	5	case	_	_
+8	ilişkisinin	ilişki	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nsubj	_	_
+9	gergin	gergin	ADJ	Adj	_	10	amod	_	_
+10	olması	ol	VERB	Verb	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	11	nmod:poss	_	_
+11	sebebiyle	sebep	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	16	obl	_	_
+12	içerdeki	içer	NOUN	Noun	Case=Loc|Number=Sing|Person=3	16	obl	_	_
+13	tüm	tüm	DET	Det	_	15	det	_	_
+14	çatlak	çatlak	ADJ	Adj	_	15	amod	_	_
+15	sesleri	ses	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	16	obj	_	_
+16	susturmak	sustur	VERB	Verb	Case=Nom|Polarity=Pos	17	csubj	_	_
+17	istediği	iste	VERB	Verb	Aspect=Perf|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	18	acl	_	_
+18	biliniyor	bil	VERB	Verb	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	Punc	_	18	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 31
+# text = PARALAR DEVLET HAZİNESİNE GİDECEK Selman, Biden sonrası dönemde ilk olarak Savunma Bakanlığı’nı hedef seçti.
+1	PARALAR	para	NOUN	Noun	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+2	DEVLET	Devlet	PROPN	Prop	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
+3	HAZİNESİNE	Hazine	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl	_	_
+4	GİDECEK	git	VERB	Verb	Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	5	acl	_	SpacesAfter=\n
+5	Selman	Selman	PROPN	Prop	Case=Nom|Number=Sing|Person=3	14	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	Punc	_	14	punct	_	_
+7	Biden	Biden	ADV	Adverb	_	14	advmod	_	_
+8	sonrası	sonra	ADJ	Adj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	nsubj	_	_
+9	dönemde	dönem	NOUN	Noun	Case=Loc|Number=Sing|Person=3	14	obl	_	_
+10	ilk	ilk	ADJ	Adj	_	14	advcl	_	_
+11	olarak	ol	ADP	PCNom	Mood=Imp|Polarity=Pos|VerbForm=Conv	10	case	_	_
+12	Savunma	savun	VERB	Verb	Case=Nom|Number=Sing|Person=3|Polarity=Pos	13	nmod:poss	_	_
+13	Bakanlığı’nı	Bakanlığı’n	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	obj	_	_
+14	hedef	hedef	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
+15	seçti	seç	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	14	compound	_	SpaceAfter=No
+16	.	.	PUNCT	Punc	_	14	punct	_	_
+
+# sent_id = 32
+# text = Suudi Arabistan Kontrol ve Yolsuzlukla Mücadele Komisyonu, bakanlıktaki çok sayıda memurun yaklaşık 328 milyon dolarlık şüpheli mali işlemlere karıştığını açıkladı.
+1	Suudi	Suudi	VERB	Verb	Case=Nom|Number=Sing|Person=3	2	nmod	_	_
+2	Arabistan	Arabistan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	7	nmod:poss	_	_
+3	Kontrol	kontrol	PROPN	Prop	Case=Nom|Number=Sing|Person=3	2	flat	_	_
+4	ve	ve	CCONJ	Conj	_	5	cc	_	_
+5	Yolsuzlukla	Yolsuzluk	NOUN	Noun	Case=Ins|Number=Sing|Person=3	2	conj	_	_
+6	Mücadele	Mücadel	PROPN	Prop	Case=Dat|Number=Sing|Person=3	7	flat	_	_
+7	Komisyonu	Komisyon	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	22	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	Punc	_	22	punct	_	_
+9-10	bakanlıktaki	_	_	_	_	_	_	_	_
+9	bakanlıkta	bakan	NOUN	Noun	Case=Loc|Number=Sing|Person=3	12	amod	_	_
+10	ki	ki	ADP	Rel	_	9	case	_	_
+11	çok	çok	DET	Adj	_	12	det	_	_
+12	sayıda	sayı	NOUN	Noun	Case=Loc|Number=Sing|Person=3	21	obl	_	_
+13	memurun	memur	NOUN	Noun	Case=Gen|Number=Sing|Person=3	21	nsubj	_	_
+14	yaklaşık	yaklaşık	ADJ	Adj	_	15	amod	_	_
+15	328	328	NUM	ANum	NumType=Card	17	nummod	_	_
+16	milyon	milyon	NUM	ANum	NumType=Card	15	flat	_	_
+17	dolarlık	dolar	NOUN	Noun	Case=Nom|Number=Sing|Person=3	18	amod	_	_
+18	şüpheli	şüpheli	NOUN	Noun	Case=Nom|Number=Sing|Person=3	20	amod	_	_
+19	mali	mali	ADJ	Adj	_	20	amod	_	_
+20	işlemlere	işlem	NOUN	Noun	Case=Dat|Number=Plur|Person=3	21	obl	_	_
+21	karıştığını	karış	VERB	Verb	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	22	ccomp	_	_
+22	açıkladı	açıkla	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	Punc	_	22	punct	_	_
+
+# sent_id = 33
+# text = Yetkililer altı davada, aralarında Savunma Bakanlığı memurları, işadamları ve sivillerin de bulunduğu en az 51 kişiyi yolsuzluk yapmakla suçladı.
+1	Yetkililer	yetkili	NOUN	Noun	Case=Nom|Number=Plur|Person=3	14	nsubj	_	_
+2	altı	al	NUM	ANum	NumType=Card	3	nummod	_	_
+3	davada	dava	NOUN	Noun	Case=Loc|Number=Sing|Person=3	8	amod	_	SpaceAfter=No
+4	,	,	PUNCT	Punc	_	8	punct	_	_
+5	aralarında	ara	ADJ	NAdj	Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
+6	Savunma	savun	VERB	Verb	Case=Nom|Number=Sing|Person=3|Polarity=Pos	7	nmod:poss	_	_
+7	Bakanlığı	Bakan	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod:poss	_	_
+8	memurları	memur	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	1	conj	_	SpaceAfter=No
+9	,	,	PUNCT	Punc	_	10	punct	_	_
+10	işadamları	işadam	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	1	conj	_	_
+11	ve	ve	CCONJ	Conj	_	12	cc	_	_
+12	sivillerin	sivil	NOUN	Noun	Case=Gen|Number=Plur|Person=3	1	conj	_	_
+13	de	de	CCONJ	Conj	_	1	advmod:emph	_	_
+14	bulunduğu	bulun	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	18	acl	_	_
+15	en	en	ADV	Adverb	_	16	advmod	_	_
+16	az	az	ADJ	Adj	_	17	amod	_	_
+17	51	51	NUM	ANum	NumType=Card	18	nummod	_	_
+18	kişiyi	kişi	NOUN	Noun	Case=Acc|Number=Sing|Person=3	20	obj	_	_
+19	yolsuzluk	yol	NOUN	Noun	Case=Nom|Number=Sing|Person=3	20	obj	_	_
+20	yapmakla	yap	VERB	Verb	Case=Ins|Polarity=Pos	21	obl	_	_
+21	suçladı	suçla	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	Punc	_	21	punct	_	_
+
+# sent_id = 34
+# text = Sanıkların 1 milyar 229 milyon 400 bin riyal (328 milyon dolar) tutarında yasadışı mali kazanç elde ettikleri, soruşturma sonucunda 44’ünün suçlu bulunduğu aktarıldı.
+1	Sanıkların	Sanık	NOUN	Noun	Case=Gen|Number=Plur|Person=3	2	nmod:poss	_	_
+2	1	1	NUM	ANum	NumType=Card	8	nummod	_	_
+3	milyar	milyar	NUM	ANum	Case=Nom|Number=Sing|Person=3	2	flat	_	_
+4	229	229	NUM	ANum	NumType=Card	2	flat	_	_
+5	milyon	milyon	NUM	ANum	NumType=Card	2	flat	_	_
+6	400	400	NUM	ANum	NumType=Card	2	flat	_	_
+7	bin	bin	NUM	ANum	NumType=Card	2	flat	_	_
+8	riyal	riyal	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	nmod:poss	_	_
+9	(	(	PUNCT	Punc	_	12	punct	_	SpaceAfter=No
+10	328	328	NUM	ANum	NumType=Card	12	nummod	_	_
+11	milyon	milyon	NUM	ANum	NumType=Card	10	flat	_	_
+12	dolar	dolar	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	appos	_	SpaceAfter=No
+13	)	)	PUNCT	Punc	_	12	punct	_	_
+14	tutarında	tutar	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	18	obl	_	_
+15	yasadışı	yasadış	ADJ	NAdj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	amod	_	_
+16	mali	mali	ADJ	Adj	_	17	amod	_	_
+17	kazanç	kazanç	NOUN	Noun	Case=Nom|Number=Sing|Person=3	18	obj	_	_
+18	elde	el	NOUN	Noun	Case=Loc|Number=Sing|Person=3	26	obl	_	_
+19	ettikleri	et	VERB	Verb	Aspect=Perf|Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	18	compound:lvc	_	SpaceAfter=No
+20	,	,	PUNCT	Punc	_	26	punct	_	_
+21	soruşturma	soruştur	NOUN	Noun	Case=Nom|Number=Sing|Person=3|Polarity=Pos	22	nmod:poss	_	_
+22	sonucunda	sonuc	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	24	obl	_	_
+23	44’ünün	44’	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	24	nsubj	_	_
+24	suçlu	suç	ADP	With	Case=Nom|Number=Sing|Person=3	26	acl	_	_
+25	bulunduğu	bulun	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	24	compound:lvc	_	_
+26	aktarıldı	aktar	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+27	.	.	PUNCT	Punc	_	26	punct	_	_
+
+# sent_id = 35
+# text = Söz konusu paranın devlet hazinesine geri alınması için çalışmaların sürdüğü belirtildi.
+1	Söz	söz	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
+2	konusu	konu	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	compound	_	_
+3	paranın	paran	NOUN	Noun	Case=Gen|Number=Sing|Person=3	5	nmod:poss	_	_
+4	devlet	devlet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
+5	hazinesine	hazine	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
+6	geri	geri	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	7	amod	_	_
+7	alınması	alın	VERB	Verb	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	9	advcl	_	_
+8	için	için	ADP	PCNom	_	7	case	_	_
+9	çalışmaların	çalış	VERB	Verb	Case=Gen|Number=Plur|Person=3|Polarity=Pos	10	nsubj	_	_
+10	sürdüğü	sür	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	11	csubj	_	_
+11	belirtildi	belir	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	Punc	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 36
+# text = SIRA DİĞER BAKANLIKLARA GELECEK Suudi Arabistan’daki Yolsuzlukla Mücadele Dairesi’nde adı açıklanmayan resmi bir kaynak, komisyonun son dönemde 226 kişinin dahil olduğu 158 ceza davası açıldığını söyledi.
+1	SIRA	SIRA	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	nmod:poss	_	_
+2	DİĞER	Diğer	CCONJ	Conj	_	11	cc	_	_
+3	BAKANLIKLARA	BAKANLIKLARA	PROPN	Prop	Case=Nom|Number=Sing|Person=3	5	amod	_	_
+4	GELECEK	gelecek	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	amod	_	SpacesAfter=\n
+5	Suudi	Suudi	VERB	Verb	Case=Nom|Number=Sing|Person=3	11	nmod:poss	_	_
+6	Arabistan’daki	Arabistan’	ADJ	NAdj	Case=Loc|Number=Sing|Person=3	7	amod	_	_
+7	Yolsuzlukla	Yolsuzluk	NOUN	Noun	Case=Ins|Number=Sing|Person=3	11	obl	_	_
+8	Mücadele	mücadele	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	nmod:poss	_	_
+9	Dairesi’nde	Dairesi’n	NOUN	Noun	Case=Loc|Number=Sing|Person=3	11	obl	_	_
+10	adı	ad(I)	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	_
+11	açıklanmayan	açıklan	VERB	Verb	Polarity=Neg|Tense=Pres|VerbForm=Part	14	acl	_	_
+12	resmi	resmi	ADJ	Adj	_	14	amod	_	_
+13	bir	bir	DET	ANum	NumType=Card	14	det	_	_
+14	kaynak	kaynak	NOUN	Noun	Case=Nom|Number=Sing|Person=3	27	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	Punc	_	27	punct	_	_
+16	komisyonun	komisyon	NOUN	Noun	Case=Gen|Number=Sing|Person=3	22	nsubj	_	_
+17	son	son	ADJ	Adj	_	18	amod	_	_
+18	dönemde	dönem	NOUN	Noun	Case=Loc|Number=Sing|Person=3	22	obl	_	_
+19	226	226	NUM	ANum	NumType=Card	20	nummod	_	_
+20	kişinin	kişi	NOUN	Noun	Case=Gen|Number=Sing|Person=3	22	nmod:poss	_	_
+21	dahil	dahil	NOUN	Noun	Case=Nom|Number=Sing|Person=3	22	obl	_	_
+22	olduğu	ol	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	25	acl	_	_
+23	158	158	NUM	ANum	NumType=Card	24	nummod	_	_
+24	ceza	ceza	NOUN	Noun	Case=Nom|Number=Sing|Person=3	25	nmod:poss	_	_
+25	davası	dava	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	26	obj	_	_
+26	açıldığını	aç	VERB	Verb	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	27	ccomp	_	_
+27	söyledi	söyle	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+28	.	.	PUNCT	Punc	_	27	punct	_	_
+
+# sent_id = 37
+# text = Diğer davalarda ise komisyon, bir ilçe sekretaryasındaki kalite yönetimi müdürü ve iki erkek kardeşine, Maliye Bakanlığı’nda mali temsilci, Milli Muhafız Bakanlığı’ndan emekli bir tümgeneral, valiliklerden birinde sağlık işleri müdürüne ve bölgelerden birinde Eğitim Dairesi çalışanına yolsuzluk suçlaması yöneltildi.
+1	Diğer	diğer	ADJ	Adj	_	2	amod	_	_
+2	davalarda	dava	NOUN	Noun	Case=Loc|Number=Plur|Person=3	27	obl	_	_
+3	ise	i	AUX	Conj	Mood=Cnd|Number=Sing|Person=3|Polarity=Pos	2	cop	_	_
+4	komisyon	komisyon	NOUN	Noun	Case=Nom|Number=Sing|Person=3	27	amod	_	SpaceAfter=No
+5	,	,	PUNCT	Punc	_	11	punct	_	_
+6	bir	bir	DET	ANum	NumType=Card	7	det	_	_
+7	ilçe	ilçe	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
+8	sekretaryasındaki	sekretaryas	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	amod	_	_
+9	kalite	kalite	ADJ	Adj	Case=Nom|Number=Sing|Person=3	10	nmod:poss	_	_
+10	yönetimi	yönetim	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nmod:poss	_	_
+11	müdürü	müdür	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	conj	_	_
+12	ve	ve	CCONJ	Conj	_	15	cc	_	_
+13	iki	iki	NUM	ANum	NumType=Card	14	nummod	_	_
+14	erkek	erkek	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	15	nmod:poss	_	_
+15	kardeşine	kardeş	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	conj	_	SpaceAfter=No
+16	,	,	PUNCT	Punc	_	20	punct	_	_
+17	Maliye	maliye	NOUN	Noun	Case=Nom|Number=Sing|Person=3	20	nsubj	_	_
+18	Bakanlığı’nda	Bakanlığı’n	NOUN	Noun	Case=Loc|Number=Sing|Person=3	20	obl	_	_
+19	mali	mali	ADJ	Adj	_	20	amod	_	_
+20	temsilci	temsilci	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	conj	_	SpaceAfter=No
+21	,	,	PUNCT	Punc	_	25	punct	_	_
+22	Milli	milli	ADJ	Adj	_	23	amod	_	_
+23	Muhafız	muhafız	ADJ	Adj	Case=Nom|Number=Sing|Person=3	24	amod	_	_
+24	Bakanlığı’ndan	Bakanlığı’n	NOUN	Noun	Case=Abl|Number=Sing|Person=3	25	nmod:poss	_	_
+25	emekli	emekil	ADJ	Adj	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	conj	_	_
+26	bir	bir	DET	ANum	NumType=Card	27	det	_	_
+27	tümgeneral	tümgeneral	NOUN	Noun	Case=Nom|Number=Sing|Person=3	42	nsubj	_	SpaceAfter=No
+28	,	,	PUNCT	Punc	_	42	punct	_	_
+29	valiliklerden	valilik	NOUN	Noun	Case=Abl|Number=Plur|Person=3	30	nmod:poss	_	_
+30	birinde	biri	NUM	NNum	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	41	obl	_	_
+31	sağlık	sağlık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	32	nmod:poss	_	_
+32	işleri	iş	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	33	nmod:poss	_	_
+33	müdürüne	müdür	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	36	nmod:poss	_	_
+34	ve	ve	CCONJ	Conj	_	35	cc	_	_
+35	bölgelerden	bölge	NOUN	Noun	Case=Abl|Number=Plur|Person=3	33	conj	_	_
+36	birinde	biri	NUM	NNum	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	41	obl	_	_
+37	Eğitim	eğitim	NOUN	Noun	Case=Nom|Number=Sing|Person=3	38	nmod:poss	_	_
+38	Dairesi	daire	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	39	nmod:poss	_	_
+39	çalışanına	çalışaın	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	41	obl	_	_
+40	yolsuzluk	yolsuz	NOUN	Noun	Case=Nom|Number=Sing|Person=3	41	obj	_	_
+41	suçlaması	suçla	VERB	Verb	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	42	csubj	_	_
+42	yöneltildi	yönel	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+43	.	.	PUNCT	Punc	_	42	punct	_	_
+
+# sent_id = 38
+# text = Suudi yetkililer, kamu parasını kendi kişisel çıkarını kullanan herkesi izlemeye ve kontrol etmeye devam edeceklerini duyurmayı ihmal etmediler.
+1	Suudi	Suudi	ADJ	Adj	Case=Nom|Number=Sing|Person=3	2	amod	_	_
+2	yetkililer	yetkili	NOUN	Noun	Case=Nom|Number=Plur|Person=3	11	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	Punc	_	11	punct	_	_
+4	kamu	kamu	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
+5	parasını	para	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
+6	kendi	kendi	PRON	Reflex	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Voice=Rfl	8	nmod:poss	_	_
+7	kişisel	kişisel	ADJ	Adj	_	8	amod	_	_
+8	çıkarını	çıkar	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	9	obj	_	_
+9	kullanan	kullan	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	10	acl	_	_
+10	herkesi	herkes	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	obj	_	_
+11	izlemeye	izle	VERB	Verb	Case=Dat|Number=Sing|Person=3|Polarity=Pos	15	obl	_	_
+12	ve	ve	CCONJ	Conj	_	13	cc	_	_
+13	kontrol	kontrol	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	conj	_	_
+14	etmeye	et	VERB	Verb	Case=Dat|Number=Sing|Person=3|Polarity=Pos	13	compound:lvc	_	_
+15	devam	devam	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	obj	_	_
+16	edeceklerini	et	VERB	Verb	Aspect=Imp|Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part	15	compound	_	_
+17	duyurmayı	duyur	VERB	Verb	Case=Acc|Number=Sing|Person=3|Polarity=Pos	18	ccomp	_	_
+18	ihmal	ihmal	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
+19	etmediler	et	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Plur|Person=3|Polarity=Neg|Tense=Past	18	compound:lvc	_	SpaceAfter=No
+20	.	.	PUNCT	Punc	_	18	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 39
+# text = 3 BİN 700 DAVA AÇILDI Suudi Arabistan Ticaret Bakanı ve Enformasyon Bakanı Vekili Dr.Macid el-Kasabi, 2030 Vizyonu kapsamında yolsuzlukla mücadele kurumunun yeniden yapılandırıldığını bildirmiş, Denetim Otoritesi ile Kontrol ve Yolsuzlukla Mücadele Komisyonu’nun birleştirilerek güçlendirildiğini ve bu yıl 3 bin 700 yolsuzluk davası başlatıldığını açıklamıştı.
+1	3	3	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	4	nummod	_	_
+2	BİN	bin	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	1	flat	_	_
+3	700	700	NUM	ANum	NumType=Card	1	flat	_	_
+4	DAVA	Dava	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
+5	AÇILDI	AÇILDI	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	SpacesAfter=\n
+6	Suudi	Suudi	VERB	Verb	Case=Nom|Number=Sing|Person=3	9	nmod:poss	_	_
+7	Arabistan	Arabistan	PROPN	Prop	Case=Nom|Number=Sing|Person=3	6	flat	_	_
+8	Ticaret	ticaret	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	nmod:poss	_	_
+9	Bakanı	bakân	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nmod:poss	_	_
+10	ve	ve	CCONJ	Conj	_	12	cc	_	_
+11	Enformasyon	Enformasyon	PROPN	Prop	Case=Nom|Number=Sing|Person=3	12	nmod:poss	_	_
+12	Bakanı	bakan	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nmod	_	_
+13	Vekili	vekil	PROPN	Prop	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	27	nsubj	_	_
+14	Dr.Macid	Dr.Macid	PROPN	Prop	Case=Nom|Number=Sing|Person=3	13	flat	_	_
+15	el	el	NOUN	Noun	Case=Nom|Number=Sing|Person=3	13	conj	_	SpaceAfter=No
+16	-	-	PUNCT	Punc	_	15	punct	_	SpaceAfter=No
+17	Kasabi	Kasabi	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	flat	_	SpaceAfter=No
+18	,	,	PUNCT	Punc	_	27	punct	_	_
+19	2030	2030	NUM	ANum	NumType=Card	20	nummod	_	_
+20	Vizyonu	Vizyonu	NOUN	Noun	Case=Nom|Number=Sing|Person=3	21	nmod:poss	_	_
+21	kapsamında	kapsam	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	26	obl	_	_
+22	yolsuzlukla	yolsuz	NOUN	Noun	Case=Ins|Number=Sing|Person=3	26	obl	_	_
+23	mücadele	mücadele	NOUN	Noun	Case=Nom|Number=Sing|Person=3	24	nmod:poss	_	_
+24	kurumunun	kurum	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	26	nsubj	_	_
+25	yeniden	yeniden	ADV	Adverb	_	26	advmod	_	_
+26	yapılandırıldığını	yapılandır	VERB	Verb	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	27	ccomp	_	_
+27	bildirmiş	bildir	VERB	Verb	Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	48	ccomp	_	SpaceAfter=No
+28	,	,	PUNCT	Punc	_	38	punct	_	_
+29	Denetim	Denetim	NOUN	Noun	Case=Nom|Number=Sing|Person=3	30	nmod:poss	_	_
+30	Otoritesi	Otorite	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	37	obl	_	_
+31	ile	ile	CCONJ	Conj	_	30	case	_	_
+32	Kontrol	kontrol	PROPN	Prop	Case=Nom|Number=Sing|Person=3	36	amod	_	_
+33	ve	ve	CCONJ	Conj	_	34	cc	_	_
+34	Yolsuzlukla	Yolsuzluk	NOUN	Noun	Case=Ins|Number=Sing|Person=3	32	conj	_	_
+35	Mücadele	mücadele	NOUN	Noun	Case=Nom|Number=Sing|Person=3	36	amod	_	_
+36	Komisyonu’nun	Komisyonu’	NOUN	Noun	Case=Gen|Number=Sing|Person=3	37	flat	_	_
+37	birleştirilerek	birleştir	VERB	Verb	Mood=Imp|Polarity=Pos|VerbForm=Conv|Voice=Pass	38	advcl	_	_
+38	güçlendirildiğini	güçlendiril	VERB	Verb	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	27	conj	_	_
+39	ve	ve	CCONJ	Conj	_	47	cc	_	_
+40	bu	bu	DET	Det	_	41	det	_	_
+41	yıl	yıl	NOUN	Noun	Case=Nom|Number=Sing|Person=3	47	obl	_	_
+42	3	3	NUM	NNum	Case=Nom|Number=Sing|NumType=Card|Person=3	45	nummod	_	_
+43	bin	bin	NUM	ANum	NumType=Card	42	flat	_	_
+44	700	700	NUM	ANum	NumType=Card	42	flat	_	_
+45	yolsuzluk	yolsuz	NOUN	Noun	Case=Nom|Number=Sing|Person=3	46	nmod:poss	_	_
+46	davası	dava	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	47	obj	_	_
+47	başlatıldığını	başlat	VERB	Verb	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	27	conj	_	_
+48	açıklamıştı	açıkla	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+49	.	.	PUNCT	Punc	_	48	punct	_	_
+
+# sent_id = 40
+# text = Kasabi, yolsuzlukla mücadelenin 2030 Vizyonu’nun temel ayaklarından biri olduğunu vurgulamış, yolsuzluk tamamen ortadan kaldırılana kadar mücadelenin süreceğini dile getirmişti.
+1	Kasabi	Kasabi	PROPN	Prop	Case=Nom|Number=Sing|Person=3	11	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	Punc	_	11	punct	_	_
+3	yolsuzlukla	yolsuzluk	NOUN	Noun	Case=Ins|Number=Sing|Person=3	6	obl	_	_
+4	mücadelenin	mücadele	NOUN	Noun	Case=Gen|Number=Sing|Person=3	6	nmod:poss	_	_
+5	2030	2030	NUM	ANum	NumType=Card	6	nummod	_	_
+6	Vizyonu’nun	Vizyonu’	NOUN	Noun	Case=Gen|Number=Sing|Person=3	8	nmod:poss	_	_
+7	temel	temel	ADJ	Adj	Case=Nom|Number=Sing|Person=3	8	amod	_	_
+8	ayaklarından	ayak	NOUN	Noun	Case=Abl|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod:poss	_	_
+9	biri	biri	PRON	Quant	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
+10	olduğunu	ol	VERB	Verb	Aspect=Perf|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	11	ccomp	_	_
+11	vurgulamış	vurgula	VERB	Verb	Evident=Nfh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	21	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	Punc	_	13	punct	_	_
+13	yolsuzluk	yol	NOUN	Noun	Case=Nom|Number=Sing|Person=3	21	nsubj	_	_
+14	tamamen	tamamen	ADV	Adverb	_	21	advmod	_	_
+15	ortadan	orta	ADJ	NAdj	Case=Abl|Number=Sing|Person=3	20	obl	_	_
+16	kaldırılana	kaldırılan	NOUN	Noun	Case=Dat|Number=Sing|Person=3	20	obl	_	_
+17	kadar	kadar	ADP	PCDat	_	16	case	_	_
+18	mücadelenin	mücadele	NOUN	Noun	Case=Gen|Number=Sing|Person=3	19	nmod:poss	_	_
+19	süreceğini	sürecek	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	obj	_	_
+20	dile	dil	VERB	Verb	Case=Dat|Number=Sing|Person=3	21	obj	_	_
+21	getirmişti	getir	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	Punc	_	21	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 41
+# text = Suudi iş adamları BAE’den kaçın “Gölgesiz” adıyla ünlenen ve kendisini BAE’de çalışan bir subay olarak tanıtan sosyal medya hesabı dikkat çekici bir iddia ortaya attı.
+1	Suudi	Suudi	ADJ	Adj	_	3	amod	_	_
+2	iş	iş	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
+3	adamları	adam	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	obj	_	_
+4	BAE’den	BAE’	NOUN	Noun	Case=Abl|Number=Sing|Person=3	5	obl	_	_
+5	kaçın	kaç	VERB	Verb	Mood=Imp|Number=Plur|Person=2|Polarity=Pos	14	acl	_	SpacesAfter=\n
+6	“Gölgesiz”	“Gölgesiz”	PUNCT	Punc	_	5	punct	_	_
+7	adıyla	ad(I)	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
+8	ünlenen	ünle	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	5	conj	_	_
+9	ve	ve	CCONJ	Conj	_	12	cc	_	_
+10	kendisini	kendi	PRON	Reflex	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Voice=Rfl	11	obj	_	_
+11	BAE’de	BAE’de	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	obj	_	_
+12	çalışan	çalış	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	5	conj	_	_
+13	bir	bir	DET	ANum	NumType=Card	14	det	_	_
+14	subay	Subay	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	advcl	_	_
+15	olarak	ol	ADP	PCNom	Mood=Imp|Polarity=Pos|VerbForm=Conv	14	case	_	_
+16	tanıtan	tanı	NOUN	Noun	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Cau	19	acl	_	_
+17	sosyal	sosyal	ADJ	Adj	_	18	amod	_	_
+18	medya	medya	NOUN	Noun	Case=Nom|Number=Sing|Person=3	19	nmod:poss	_	_
+19	hesabı	hesap	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	20	nsubj	_	_
+20	dikkat	dikkat	NOUN	Noun	Case=Nom|Number=Sing|Person=3	24	csubj	_	_
+21	çekici	çeki	ADJ	Adj	Case=Nom|Number=Sing|Person=3	23	amod	_	_
+22	bir	bir	DET	ANum	NumType=Card	23	det	_	_
+23	iddia	iddia	NOUN	Noun	Case=Nom|Number=Sing|Person=3	20	compound	_	_
+24	ortaya	orta	ADJ	NAdj	Case=Dat|Number=Sing|Person=3	0	root	_	_
+25	attı	at	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	24	compound	_	SpaceAfter=No
+26	.	.	PUNCT	Punc	_	24	punct	_	_
+
+# sent_id = 42
+# text = Yazdıkları bir süre sonra doğrulanan “Gölgesiz” BAE’de yaşayan Suudi işadamlarının parasına el konulacağını söyledi ve şunları yazdı: “BAE’de ikamet eden Suudi iş adamları, yolsuzluk suçlamaları sizi bekliyor.
+1	Yazdıkları	yaz	VERB	Verb	Aspect=Perf|Number[psor]=Plur|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	3	acl	_	_
+2	bir	bir	DET	ANum	NumType=Card	3	det	_	_
+3	süre	süre	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	obl	_	_
+4	sonra	sonra	ADP	PCAbl	_	3	case	_	_
+5	doğrulanan	doğrula	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	7	acl	_	_
+6	“Gölgesiz”	“Gölgesiz”	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	amod	_	_
+7	BAE’de	BAE’	NOUN	Noun	Case=Loc|Number=Sing|Person=3	8	obl	_	_
+8	yaşayan	yaşa	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	10	acl	_	_
+9	Suudi	Suudi	ADJ	Adj	_	10	amod	_	_
+10	işadamlarının	işadamı	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	11	nmod:poss	_	_
+11	parasına	para	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	12	obl	_	_
+12	el	el	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	nsubj	_	_
+13	konulacağını	kon(I)	VERB	Verb	Aspect=Imp|Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Fut|VerbForm=Part|Voice=Pass	12	compound	_	_
+14	söyledi	söyle	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	0	root	_	_
+15	ve	ve	CCONJ	Conj	_	17	cc	_	_
+16	şunları	şu	PRON	Demons	Case=Acc|Number=Plur|Person=3	17	obj	_	_
+17	yazdı	yaz	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	14	conj	_	SpaceAfter=No
+18	:	:	PUNCT	Punc	_	17	punct	_	_
+19	“BAE’de	“BAE’	NOUN	Noun	Case=Loc|Number=Sing|Person=3	20	obl	_	_
+20	ikamet	ikamet	NOUN	Noun	Case=Nom|Number=Sing|Person=3	22	acl	_	_
+21	eden	et	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	20	compound:lvc	_	_
+22	Suudi	Suudi	VERB	Verb	Case=Nom|Number=Sing|Person=3	24	nmod:poss	_	_
+23	iş	iş	NOUN	Noun	Case=Nom|Number=Sing|Person=3	24	nmod:poss	_	_
+24	adamları	adam	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	29	nsubj	_	SpaceAfter=No
+25	,	,	PUNCT	Punc	_	29	punct	_	_
+26	yolsuzluk	yol	NOUN	Noun	Case=Nom|Number=Sing|Person=3	27	nmod:poss	_	_
+27	suçlamaları	suçla	VERB	Verb	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	29	nsubj	_	_
+28	sizi	siz	PRON	Pers	Case=Acc|Number=Plur|Person=2	29	obj	_	_
+29	bekliyor	bekle	VERB	Verb	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	14	conj	_	SpaceAfter=No
+30	.	.	PUNCT	Punc	_	29	punct	_	_
+
+# sent_id = 43
+# text = Paranızı yurt dışına hızlı bir şekilde kaçırmanızı tavsiye ederim.
+1	Paranızı	Para	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2	7	obj	_	_
+2	yurt	yurt	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
+3	dışına	dış	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl	_	_
+4	hızlı	hız	ADJ	Adj	Case=Nom|Number=Sing|Person=3	6	amod	_	_
+5	bir	bir	DET	ANum	NumType=Card	6	det	_	_
+6	şekilde	şekil	NOUN	Noun	Case=Loc|Number=Sing|Person=3	7	obl	_	_
+7	kaçırmanızı	kaçır	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2|Polarity=Pos	8	obl	_	_
+8	tavsiye	tavsiye	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
+9	ederim	et	VERB	Verb	Aspect=Hab|Number=Sing|Person=1|Polarity=Pos|Tense=Aor	8	compound:lvc	_	SpaceAfter=No
+10	.	.	PUNCT	Punc	_	8	punct	_	_
+
+# sent_id = 44
+# text = Devletinizden size gelen hiçbir güvenceye inanmayın.
+1	Devletinizden	Devleti	PRON	Pers	Case=Abl|Number=Plur|Number[psor]=Plur|Person=2|Person[psor]=2|Voice=Rfl	6	obl	_	_
+2	size	siz	PRON	Pers	Case=Dat|Number=Plur|Person=2	3	obl	_	_
+3	gelen	gel	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	5	acl	_	_
+4	hiçbir	hiçbir	DET	Det	_	5	det	_	_
+5	güvenceye	güvence	NOUN	Noun	Case=Dat|Number=Sing|Person=3	6	obl	_	_
+6	inanmayın	inan	VERB	Verb	Mood=Imp|Number=Plur|Person=2|Polarity=Neg	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	Punc	_	6	punct	_	_
+
+# sent_id = 45
+# text = Şantaj dosyalarınız tamamlandı ve yakında uygulamaya konacak.”
+1	Şantaj	Şantaj	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
+2	dosyalarınız	dosyalar	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2	3	nsubj	_	_
+3	tamamlandı	tamamla	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	_
+4	ve	ve	CCONJ	Conj	_	7	cc	_	_
+5	yakında	yakın	ADJ	NAdj	Case=Loc|Number=Sing|Person=3	6	amod	_	_
+6	uygulamaya	uygulama	NOUN	Noun	Case=Dat|Number=Sing|Person=3	7	obl	_	_
+7	konacak	kon(I)	VERB	Verb	Aspect=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Fut	3	conj	_	SpaceAfter=No
+8	.”	.”	PUNCT	Punc	_	7	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 46
+# text = Edirne’de ev hanımlarına çağrı:
+1	Edirne’de	Edirne’	NOUN	Noun	Case=Loc|Number=Sing|Person=3	4	obl	_	_
+2	ev	ev	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
+3	hanımlarına	hanım(I)	NOUN	Noun	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	4	obl	_	_
+4	çağrı	çağrı	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	Punc	_	4	punct	_	_
+
+# sent_id = 47
+# text = Siz gün yaptıkça korona yayılıyor Sağlık Bakanı Fahrettin Koca’nın açıkladığı vaka artışı yaşanan 15 il arasında yer alan Edirne’de, Hayat Eve Sığar (HES) uygulamasından 15 gün arayla alınan görüntüler tehlikeyi gözler önüne serdi.
+1	Siz	siz	PRON	Pers	Case=Nom|Number=Plur|Person=2	5	nsubj	_	_
+2	gün	gün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	obl	_	_
+3	yaptıkça	yap	VERB	Verb	Polarity=Pos	5	advcl	_	_
+4	korona	koron	NOUN	Noun	Case=Dat|Number=Sing|Person=3	5	obl	_	_
+5	yayılıyor	yay	VERB	Verb	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Pass	17	advcl	_	SpacesAfter=\n
+6	Sağlık	sağlık	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	nmod:poss	_	_
+7	Bakanı	bakan	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod	_	_
+8	Fahrettin	Fahrettin	PROPN	Prop	Case=Nom|Number=Sing|Person=3	10	obj	_	_
+9	Koca’nın	koca’nın	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	flat	_	_
+10	açıkladığı	açıkla	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	11	acl	_	_
+11	vaka	vaka	NOUN	Noun	Case=Nom|Number=Sing|Person=3	12	nmod:poss	_	_
+12	artışı	art	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	13	nsubj	_	_
+13	yaşanan	yaşa	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	15	acl	_	_
+14	15	15	NUM	ANum	NumType=Card	15	nummod	_	_
+15	il	il	NOUN	Noun	Case=Nom|Number=Sing|Person=3	16	nmod:poss	_	_
+16	arasında	ara	ADJ	NAdj	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	obl	_	_
+17	yer	yer	NOUN	Noun	Case=Nom|Number=Sing|Person=3	19	acl	_	_
+18	alan	al	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	17	compound	_	_
+19	Edirne’de	Edirne’de	NOUN	Noun	Case=Nom|Number=Sing|Person=3	36	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	Punc	_	36	punct	_	_
+21	Hayat	hayat(I)	NOUN	Noun	Case=Nom|Number=Sing|Person=3	22	nmod	_	_
+22	Eve	Ev	NOUN	Noun	Case=Dat|Number=Sing|Person=3	31	obl	_	_
+23	Sığar	Sığar	PROPN	Prop	Case=Nom|Number=Sing|Person=3	27	nmod:poss	_	_
+24	(	(	PUNCT	Punc	_	25	punct	_	SpaceAfter=No
+25	HES	HES	PROPN	Prop	Case=Nom|Number=Sing|Person=3	23	appos	_	SpaceAfter=No
+26	)	)	PUNCT	Punc	_	25	punct	_	_
+27	uygulamasından	uygulama	NOUN	Noun	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	29	flat	_	_
+28	15	15	NUM	ANum	NumType=Card	29	nummod	_	_
+29	gün	gün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	30	obl	_	_
+30	arayla	ara	NOUN	Noun	Case=Ins|Number=Sing|Person=3	31	obl	_	_
+31	alınan	alın	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	36	acl	_	_
+32	görüntüler	görüntü	NOUN	Noun	Case=Nom|Number=Plur|Person=3	36	nsubj	_	_
+33	tehlikeyi	tehlike	NOUN	Noun	Case=Acc|Number=Sing|Person=3	34	obj	_	_
+34	gözler	göz	NOUN	Noun	Case=Nom|Number=Plur|Person=3	35	nmod:poss	_	_
+35	önüne	ön	ADJ	NAdj	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	36	obl	_	_
+36	serdi	se	VERB	Verb	Aspect=Hab|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	0	root	_	SpaceAfter=No
+37	.	.	PUNCT	Punc	_	36	punct	_	_
+
+# sent_id = 48
+# text = Ayrıca Edirne Valisi Ekrem Canalp’in talimatıyla STK’lara gönderilen mesajda korona tedbirleri kapsamında özellikle ev hanımlarına önemli çağrıda bulunuldu.
+1	Ayrıca	ayrıca	ADV	Adverb	_	18	advmod	_	_
+2	Edirne	Edirne	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	nmod:poss	_	_
+3	Valisi	Vali	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	4	nmod	_	_
+4	Ekrem	Ekrem	PROPN	Prop	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
+5	Canalp’in	Canalp’in	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	flat	_	_
+6	talimatıyla	talimat	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obl	_	_
+7	STK’lara	STK’	NOUN	Noun	Case=Dat|Number=Plur|Person=3	8	obl	_	_
+8	gönderilen	gönder	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	9	acl	_	_
+9	mesajda	mesaj	NOUN	Noun	Case=Loc|Number=Sing|Person=3	18	obl	_	_
+10	korona	korona	PRON	Pers	Case=Nom|Number=Sing|Person=3	11	nmod:poss	_	_
+11	tedbirleri	tedbir	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=3	12	nmod:poss	_	_
+12	kapsamında	kapsam	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	18	obl	_	_
+13	özellikle	özellikle	ADV	Adverb	_	18	advmod	_	_
+14	ev	ev	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	nmod:poss	_	_
+15	hanımlarına	hanım(I)	NOUN	Noun	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	18	obl	_	_
+16	önemli	önem	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	amod	_	_
+17	çağrıda	çağrı	NOUN	Noun	Case=Loc|Number=Sing|Person=3	18	obl	_	_
+18	bulunuldu	bulun	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	Punc	_	18	punct	_	_
+
+# sent_id = 49
+# text = Gönderilen mesajda, ev hanımlarının kendi aralarında gün düzenlememelerinin, komşu ziyareti yapmamalarının ve sosyal izolasyona dikkat etmelerinin önem arz ettiği vurgulandı.
+1	Gönderilen	gönder	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	2	acl	_	_
+2	mesajda	mesaj	NOUN	Noun	Case=Loc|Number=Sing|Person=3	13	obl	_	SpaceAfter=No
+3	,	,	PUNCT	Punc	_	9	punct	_	_
+4	ev	ev	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
+5	hanımlarının	hanım	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	nmod:poss	_	_
+6	kendi	kendi	PRON	Reflex	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Voice=Rfl	7	nmod:poss	_	_
+7	aralarında	ara	ADJ	NAdj	Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	9	amod	_	_
+8	gün	gü	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	nmod:poss	_	_
+9	düzenlememelerinin	düzenlememe	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	12	nmod:poss	_	SpaceAfter=No
+10	,	,	PUNCT	Punc	_	9	punct	_	_
+11	komşu	komşu	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	12	amod	_	_
+12	ziyareti	ziyaret	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	nsubj	_	_
+13	yapmamalarının	yapma	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	22	csubj	_	_
+14	ve	ve	CCONJ	Conj	_	20	cc	_	_
+15	sosyal	sosyal	ADJ	Adj	_	16	amod	_	_
+16	izolasyona	izolasyon	NOUN	Noun	Case=Dat|Number=Sing|Person=3	20	obl	_	_
+17	dikkat	dikkat	NOUN	Noun	Case=Nom|Number=Sing|Person=3	18	nmod:poss	_	_
+18	etmelerinin	etme	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	20	nsubj	_	_
+19	önem	önem	NOUN	Noun	Case=Nom|Number=Sing|Person=3	20	obj	_	_
+20	arz	arz	NOUN	Noun	Case=Nom|Number=Sing|Person=3	13	conj	_	_
+21	ettiği	et	VERB	Verb	Aspect=Perf|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	13	compound:lvc	_	_
+22	vurgulandı	vurgula	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	Punc	_	22	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 50
+# text = HES uygulamasında paylaşılan veriler, Türkiye ortalamasının üzerinde vaka artışının görüldüğü Edirne’nin tehlikeli durumunu gözler önüne serdi.
+1	HES	Hes	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
+2	uygulamasında	uygulama	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obl	_	_
+3	paylaşılan	paylaş	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	4	acl	_	_
+4	veriler	veri	NOUN	Noun	Case=Nom|Number=Plur|Person=3	17	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	Punc	_	16	punct	_	_
+6	Türkiye	Türkiye	PROPN	Prop	Case=Nom|Number=Sing|Person=3	7	nmod:poss	_	_
+7	ortalamasının	ortalamas	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	nmod:poss	_	_
+8	üzerinde	Üzer	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	obl	_	_
+9	vaka	vaka	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nmod:poss	_	_
+10	artışının	artış	NOUN	Noun	Case=Gen|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	_
+11	görüldüğü	gör	VERB	Verb	Aspect=Perf|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	12	acl	_	_
+12	Edirne’nin	Edirne	NOUN	Noun	Case=Gen|Number=Sing|Person=3	14	nmod:poss	_	_
+13	tehlikeli	tehlike	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	nmod:poss	_	_
+14	durumunu	durum	NOUN	Noun	Case=Acc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	15	obj	_	_
+15	gözler	göz	NOUN	Noun	Case=Nom|Number=Plur|Person=3	16	nmod:poss	_	_
+16	önüne	ön	ADJ	NAdj	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	17	obl	_	_
+17	serdi	se	VERB	Verb	Aspect=Hab|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	Punc	_	17	punct	_	_
+
+# sent_id = 51
+# text = HES uygulamasından 15 gün arayla alınan görüntüler de koronavirüste vaka artışlarının yaşandığı dikkat çekti.
+1	HES	Hes	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
+2	uygulamasından	uygulama	VERB	Verb	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	obl	_	_
+3	15	15	NUM	ANum	NumType=Card	4	nummod	_	_
+4	gün	gün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	obl	_	_
+5	arayla	ara	NOUN	Noun	Case=Ins|Number=Sing|Person=3	6	obl	_	_
+6	alınan	alın	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	7	acl	_	_
+7	görüntüler	görüntü	NOUN	Noun	Case=Nom|Number=Plur|Person=3	13	nsubj	_	_
+8	de	de	CCONJ	Conj	_	7	advmod:emph	_	_
+9	koronavirüste	koronavirüs	NOUN	Noun	Case=Loc|Number=Sing|Person=3	12	obl	_	_
+10	vaka	vaka	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	nmod:poss	_	_
+11	artışlarının	art	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	12	nsubj	_	_
+12	yaşandığı	yaşa	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	_
+13	dikkat	dikkat	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
+14	çekti	çek	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past	13	compound	_	SpaceAfter=No
+15	.	.	PUNCT	Punc	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 52
+# text = Her yer kırmızı Uygulamada 15 gün önce yüksek riski temsil eden kırmızı alanların az sayıda bulunduğu Edirne’de bugünkü görüntüde ise çoğu alanın yüksek riskli olduğu görüldü.
+1	Her	her	DET	Det	_	2	det	_	_
+2	yer	yer	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nsubj	_	_
+3	kırmızı	kır	ADJ	Adj	_	4	amod	_	SpacesAfter=\n
+4	Uygulamada	Uygula	VERB	Verb	Case=Loc|Number=Sing|Person=3|Polarity=Pos	5	compound	_	_
+5	15	15	NUM	ANum	NumType=Card	6	nummod	_	_
+6	gün	gün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	obl	_	_
+7	önce	önce	ADP	PCAbl	_	6	case	_	_
+8	yüksek	yüksek	ADJ	Adj	_	9	amod	_	_
+9	riski	risk	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obj	_	_
+10	temsil	temsil	NOUN	Noun	Case=Nom|Number=Sing|Person=3	13	acl	_	_
+11	eden	et	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	10	compound:lvc	_	_
+12	kırmızı	kırmızı	ADJ	Adj	_	13	amod	_	_
+13	alanların	alan	NOUN	Noun	Case=Gen|Number=Plur|Person=3	16	nsubj	_	_
+14	az	az	ADJ	Adj	_	15	amod	_	_
+15	sayıda	sayı	NOUN	Noun	Case=Loc|Number=Sing|Person=3	16	obl	_	_
+16	bulunduğu	bulun	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	17	acl	_	_
+17	Edirne’de	Edirne’	NOUN	Noun	Case=Loc|Number=Sing|Person=3	25	obl	_	_
+18	bugünkü	bugün	NOUN	Noun	Case=Nom|Number=Sing|Person=3	19	amod	_	_
+19	görüntüde	görüntü	NOUN	Noun	Case=Loc|Number=Sing|Person=3	25	obl	_	_
+20	ise	i	AUX	Conj	Mood=Cnd|Number=Sing|Person=3|Polarity=Pos	19	cop	_	_
+21	çoğu	çok	DET	Det	_	22	det	_	_
+22	alanın	alan	NOUN	Noun	Case=Gen|Number=Sing|Person=3	24	nmod:poss	_	_
+23	yüksek	yüksek	ADJ	Adj	_	24	amod	_	_
+24	riskli	riskil	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	25	nsubj	_	_
+25	olduğu	ol	VERB	Verb	Aspect=Perf|Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	26	csubj	_	_
+26	görüldü	gör	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+27	.	.	PUNCT	Punc	_	26	punct	_	_
+
+# sent_id = 53
+# text = HES uygulamasından bakıldığında adeta kırmızı alarm veren Edirne’de artan vaka sayılarına karşı denetimler de artırıldı.
+1	HES	Hes	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
+2	uygulamasından	uygulama	VERB	Verb	Case=Abl|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	3	obl	_	_
+3	bakıldığında	bak	VERB	Verb	Aspect=Perf|Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	_	_
+4	adeta	adeta	ADV	Adverb	_	8	acl	_	_
+5	kırmızı	kırmızı	ADJ	Adj	_	6	amod	_	_
+6	alarm	alarm	NOUN	Noun	Case=Nom|Number=Sing|Person=3	7	obj	_	_
+7	veren	ver	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	4	compound	_	_
+8	Edirne’de	Edirne’	NOUN	Noun	Case=Loc|Number=Sing|Person=3	9	obl	_	_
+9	artan	art	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part	11	acl	_	_
+10	vaka	vaka	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	nmod:poss	_	_
+11	sayılarına	sayı	NOUN	Noun	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	15	obl	_	_
+12	karşı	karşı	ADP	PCDat	_	11	case	_	_
+13	denetimler	denetim	NOUN	Noun	Case=Nom|Number=Plur|Person=3	15	nsubj	_	_
+14	de	de	CCONJ	Conj	_	13	advmod:emph	_	_
+15	artırıldı	artır	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	Punc	_	15	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 54
+# text = Duyarlılık çağrısı yapıldı
+1-3	Duyarlılık	_	_	_	_	_	_	_	_
+1	Duyar	duyar	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	amod	_	_
+2	lı	li	ADP	With	_	1	case	_	_
+3	lık	lik	ADP	Ness	Case=Nom|Number=Sing|Person=3	1	case	_	_
+4	çağrısı	çağrı	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
+5	yapıldı	yap	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpacesAfter=\n
+
+# sent_id = 55
+# text = Öte yandan, Edirne Valisi Ekrem Canalp’in talimatıyla STK’lara gönderilen mesajda korona virüs tedbirleri kapsamında özellikle ev hanımlarına önemli çağrıda bulunuldu.
+1	Öte	öte	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	obl	_	_
+2	yandan	yan	ADJ	NAdj	Case=Abl|Number=Sing|Person=3	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	Punc	_	6	punct	_	_
+4	Edirne	Edirne	NOUN	Noun	Case=Nom|Number=Sing|Person=3	5	nmod:poss	_	_
+5	Valisi	Vali	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod	_	_
+6	Ekrem	Ekrem	PROPN	Prop	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
+7	Canalp’in	Canalp’in	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	flat	_	_
+8	talimatıyla	talimat	NOUN	Noun	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	obl	_	_
+9	STK’lara	STK’	NOUN	Noun	Case=Dat|Number=Plur|Person=3	10	obl	_	_
+10	gönderilen	gönder	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	11	acl	_	_
+11	mesajda	mesaj	NOUN	Noun	Case=Loc|Number=Sing|Person=3	21	obl	_	_
+12	korona	korona	PRON	Pers	Case=Nom|Number=Sing|Person=3	13	nmod:poss	_	_
+13	virüs	virüs	NOUN	Noun	Case=Nom|Number=Sing|Person=3	14	nmod:poss	_	_
+14	tedbirleri	tedbir	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	15	nmod:poss	_	_
+15	kapsamında	kapsam	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	21	obl	_	_
+16	özellikle	özellikle	ADV	Adverb	_	21	advmod	_	_
+17	ev	ev	NOUN	Noun	Case=Nom|Number=Sing|Person=3	18	nmod:poss	_	_
+18	hanımlarına	hanım(I)	NOUN	Noun	Case=Dat|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	21	obl	_	_
+19	önemli	önem	NOUN	Noun	Case=Nom|Number=Sing|Person=3	20	amod	_	_
+20	çağrıda	çağrı	NOUN	Noun	Case=Loc|Number=Sing|Person=3	21	obl	_	_
+21	bulunuldu	bulun	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	Punc	_	21	punct	_	_
+
+# sent_id = 56
+# text = Gönderilen mesajda Edirne genelinde son zamanlarda ev hanımlarının vaka artışında belirgin yükseliş gözlendiği ifade edildi.
+1	Gönderilen	gönder	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	2	acl	_	_
+2	mesajda	mesaj	NOUN	Noun	Case=Loc|Number=Sing|Person=3	13	obl	_	_
+3	Edirne	Edirne	NOUN	Noun	Case=Nom|Number=Sing|Person=3	4	nmod:poss	_	_
+4	genelinde	genel	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	obl	_	_
+5	son	son	ADJ	Adj	_	6	amod	_	_
+6	zamanlarda	zaman	NOUN	Noun	Case=Loc|Number=Plur|Person=3	13	obl	_	_
+7	ev	ev	NOUN	Noun	Case=Nom|Number=Sing|Person=3	8	nmod:poss	_	_
+8	hanımlarının	hanım	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	10	nmod:poss	_	_
+9	vaka	vaka	NOUN	Noun	Case=Nom|Number=Sing|Person=3	10	nmod:poss	_	_
+10	artışında	artış	NOUN	Noun	Case=Loc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	13	obl	_	_
+11	belirgin	belirgin	ADJ	Adj	_	12	amod	_	_
+12	yükseliş	yükseliş	NOUN	Noun	Case=Nom|Number=Sing|Person=3	13	nsubj	_	_
+13	gözlendiği	gözle	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	14	csubj	_	_
+14	ifade	ifade	NOUN	Noun	Case=Nom|Number=Sing|Person=3	0	root	_	_
+15	edildi	et	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	14	compound:lvc	_	SpaceAfter=No
+16	.	.	PUNCT	Punc	_	14	punct	_	_
+
+# sent_id = 57
+# text = Ev hanımlarının kendi aralarında gün düzenlememelerinin, komşu ziyareti yapmamalarının ve sosyal izolasyona dikkat etmelerinin önem arz ettiği vurgulanan mesajda, üst düzey duyarlılık çağrısı yapıldı.
+1	Ev	ev	NOUN	Noun	Case=Nom|Number=Sing|Person=3	2	nmod:poss	_	_
+2	hanımlarının	hanım	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	nmod:poss	_	_
+3	kendi	kendi	PRON	Reflex	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Voice=Rfl	4	nmod:poss	_	_
+4	aralarında	ara	ADJ	NAdj	Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	6	amod	_	_
+5	gün	gü	NOUN	Noun	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
+6	düzenlememelerinin	düzenlememe	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	10	nmod:poss	_	SpaceAfter=No
+7	,	,	PUNCT	Punc	_	10	punct	_	_
+8	komşu	komşu	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	9	nmod:poss	_	_
+9	ziyareti	ziyaret	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	10	nmod:poss	_	_
+10	yapmamalarının	yapmama	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	15	nmod:poss	_	_
+11	ve	ve	CCONJ	Conj	_	13	cc	_	_
+12	sosyal	sosyal	ADJ	Adj	_	13	amod	_	_
+13	izolasyona	izolasyon	NOUN	Noun	Case=Dat|Number=Sing|Person=3	10	conj	_	_
+14	dikkat	dikkat	NOUN	Noun	Case=Nom|Number=Sing|Person=3	15	nmod:poss	_	_
+15	etmelerinin	etme	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	16	nmod:poss	_	_
+16	önem	önem	NOUN	Noun	Case=Nom|Number=Sing|Person=3	17	nsubj	_	_
+17	arz	arz	NOUN	Noun	Case=Nom|Number=Sing|Person=3	20	acl	_	_
+18	ettiği	et	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	17	compound:lvc	_	_
+19	vurgulanan	vurgula	VERB	Verb	Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Pass	20	acl	_	_
+20	mesajda	mesaj	NOUN	Noun	Case=Loc|Number=Sing|Person=3	28	obl	_	SpaceAfter=No
+21	,	,	PUNCT	Punc	_	24	punct	_	_
+22	üst	üst	ADJ	Adj	_	23	amod	_	_
+23	düzey	düzey	NOUN	Noun	Case=Nom|Number=Sing|Person=3	24	obl	_	_
+24-26	duyarlılık	_	_	_	_	_	_	_	_
+24	duyar	duy	NOUN	Noun	Aspect=Hab|Number=Sing|Person=3|Polarity=Pos|Tense=Aor	28	advcl	_	_
+25	lı	li	ADP	With	_	24	case	_	_
+26	lık	lik	ADP	Ness	Case=Nom|Number=Sing|Person=3	24	case	_	_
+27	çağrısı	çağrı	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	28	nsubj	_	_
+28	yapıldı	yap	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	0	root	_	SpaceAfter=No
+29	.	.	PUNCT	Punc	_	28	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 58
+# text = Vakaların pik yaptığı Edirne'de camilerden 'komşu ziyareti yapmayın' anonsu yapıldı Koronavirüs vakalarının artış gösterdiği Edirne'de önlemler en üst seviyeye çıkarılıyor.
+1	Vakaların	Vaka	NOUN	Noun	Case=Gen|Number=Plur|Person=3	3	nsubj	_	_
+2	pik	pik	NOUN	Noun	Case=Nom|Number=Sing|Person=3	3	obj	_	_
+3	yaptığı	yap	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	4	acl	_	_
+4	Edirne'de	Edirne	PROPN	Prop	Case=Loc|Number=Sing|Person=3	8	obl	_	_
+5	camilerden	cami	NOUN	Noun	Case=Abl|Number=Plur|Person=3	6	nmod:poss	_	_
+6	'komşu	'komş	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	7	nmod:poss	_	_
+7	ziyareti	ziyaret	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	8	obj	_	_
+8	yapmayın	yap	VERB	Verb	Mood=Imp|Number=Plur|Person=2|Polarity=Neg	10	nmod:poss	_	SpaceAfter=No
+9	'	'	PUNCT	Punc	_	8	punct	_	_
+10	anonsu	anons	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	11	nsubj	_	_
+11	yapıldı	yap	VERB	Verb	Aspect=Perf|Evident=Fh|Number=Sing|Person=3|Polarity=Pos|Tense=Past|Voice=Pass	17	acl	_	SpacesAfter=\n
+12	Koronavirüs	Koronavirüs	PROPN	Prop	Case=Nom|Number=Sing|Person=3	13	nmod:poss	_	_
+13	vakalarının	vaka	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	14	nsubj	_	_
+14	artış	art	NOUN	Noun	Case=Nom|Number=Sing|Person=3|Polarity=Pos	16	acl	_	_
+15	gösterdiği	göster	VERB	Verb	Aspect=Perf|Number[psor]=Sing|Person[psor]=3|Polarity=Pos|Tense=Past|VerbForm=Part	14	compound:lvc	_	_
+16	Edirne'de	Edirne	PROPN	Prop	Case=Loc|Number=Sing|Person=3	17	amod	_	_
+17	önlemler	önlem	NOUN	Noun	Case=Nom|Number=Plur|Person=3	21	nsubj	_	_
+18	en	en	ADV	Adverb	_	19	advmod	_	_
+19	üst	üst	ADJ	Adj	_	20	amod	_	_
+20	seviyeye	seviyey	NOUN	Noun	Case=Dat|Number=Sing|Person=3	21	obl	_	_
+21	çıkarılıyor	çıkar	VERB	Verb	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Pass	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	Punc	_	21	punct	_	_
+
+# sent_id = 59
+# text = Toplu taşıma araçlarında müşterilerinin inmesiyle birlikte 1 milimetre boşluk kalmayacak şekilde dezenfekte işlemi gerçekleştiriliyor.
+1	Toplu	topl	NOUN	Noun	Case=Acc|Number=Sing|Person=3	5	obj	_	_
+2	taşıma	taşı	NOUN	Noun	Case=Dat|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1	3	nmod:poss	_	_
+3	araçlarında	araç	NOUN	Noun	Case=Loc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	obl	_	_
+4	müşterilerinin	müşteri	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	5	nsubj	_	_
+5	inmesiyle	in	VERB	Verb	Case=Ins|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Pos	14	advcl	_	_
+6	birlikte	birlikte	ADP	PCIns	_	5	case	_	_
+7	1	1	NUM	ANum	NumType=Card	8	nummod	_	_
+8	milimetre	milimetre	NOUN	Noun	Case=Nom|Number=Sing|Person=3	9	amod	_	_
+9	boşluk	boşluk	NOUN	Noun	Case=Nom|Number=Sing|Person=3	11	obj	_	_
+10	kalmayacak	kal	VERB	Verb	Aspect=Imp|Number=Sing|Person=3|Polarity=Neg|Tense=Fut	9	compound:lvc	_	_
+11	şekilde	şekil	NOUN	Noun	Case=Loc|Number=Sing|Person=3	14	obl	_	_
+12	dezenfekte	dezenfek	NOUN	Noun	Case=Loc|Number=Sing|Person=3	14	obl	_	_
+13	işlemi	işlem	NOUN	Noun	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	14	nsubj	_	_
+14	gerçekleştiriliyor	gerçekleştiril	VERB	Verb	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	Punc	_	14	punct	_	_
+
+# sent_id = 60
+# text = Kentte sık sık camilerden komşu ziyaretlerinin yapılmaması için anonslar yapılırken, polis ekipleri denetimlerini sürdürüyor.
+1	Kentte	kent	NOUN	Noun	Case=Loc|Number=Sing|Person=3	4	amod	_	_
+2	sık	sık	ADV	Adverb	_	1	advmod	_	_
+3	sık	sık	ADV	Adverb	_	2	compound:redup	_	_
+4	camilerden	cami	NOUN	Noun	Case=Abl|Number=Plur|Person=3	6	nmod:poss	_	_
+5	komşu	komşu	ADJ	NAdj	Case=Nom|Number=Sing|Person=3	6	nmod:poss	_	_
+6	ziyaretlerinin	ziyaret	NOUN	Noun	Case=Gen|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	7	nsubj	_	_
+7	yapılmaması	yapıl	VERB	Verb	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|Polarity=Neg	10	advcl	_	_
+8	için	için	ADP	PCNom	_	7	case	_	_
+9	anonslar	anons	NOUN	Noun	Case=Nom|Number=Plur|Person=3	10	obj	_	_
+10	yapılırken	yap	VERB	Verb	Aspect=Hab|Mood=Imp|Number=Sing|Person=3|Polarity=Pos|Tense=Aor|VerbForm=Conv|Voice=Pass	15	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	Punc	_	15	punct	_	_
+12	polis	polis	NOUN	Noun	Case=Nom|Number=Sing|Person=3	13	nmod:poss	_	_
+13	ekipleri	ekip	NOUN	Noun	Case=Nom|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	14	nmod:poss	_	_
+14	denetimlerini	denetim	NOUN	Noun	Case=Acc|Number=Plur|Number[psor]=Sing|Person=3|Person[psor]=3	15	obj	_	_
+15	sürdürüyor	sür	VERB	Verb	Aspect=Prog|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|Voice=Cau	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	Punc	_	15	punct	_	SpaceAfter=No
+

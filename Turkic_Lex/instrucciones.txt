@@ -1,0 +1,12 @@
+Turkish-LEX is composed of two python scripts.
+1. The first script (WFreq.py) takes the data and process the text to generate a frequency profile
+in the form of unigrams and bigrams. Graphics are produced as well. Finally, it generates a wordlist (wordlist.txt) for the second script.
+
+ How to run in the command line:
+$ python3 Wfreq.py data/TestFile.txt
+
+2. The second script (FreqListToStimuliTurkish.py) compares the lexical frequency from the wordlist previously created with a corpus of the Turkish language.
+This provides a way to determine lexical sophistication in the language. Frequency tables, global frequency averages, and plots are also generated. Results are stored by default in the results folder.
+
+How to run in the command line:
+$ cat results/wordlist.txt | python3 FreqListToStimuliTurkish.py
